@@ -10,6 +10,7 @@ html {
 
 #nav {
   background-color: white;
+  width: 100%;
 }
 
 #logo {
@@ -42,5 +43,14 @@ html {
 }
 
 .buttonText {
-  font-size: 2vw;
+  font-size: 1.5vw;
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+
+.headingText {
+  font-size: 6vw;
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 1rem;
 }
