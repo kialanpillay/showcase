@@ -57,17 +57,18 @@ html {
 
 .numeric {
   display: inline;
+  color: #f6c444;
   font-size: 5vw;
 }
 
 .sep {
   margin-top: 10vh;
-  height: 2px;
-  background-color: white;
+  height: 4px;
+  background-color: rgb(52,62,65);
 }
 
 .stack {
-  color: white;
+  color: #f6c444;
   letter-spacing: 0.2rem;
   text-align: center;
 }
@@ -82,4 +83,8 @@ h2 {
 
 h3 {
   font-size: 1.8vw;
+}
+
+h4 {
+  font-size: 1.4vw;
 }

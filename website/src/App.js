@@ -76,6 +76,7 @@ export default class App extends React.Component {
                 <Button
                   style={{ width: "10vw", height: "10vw" }}
                   variant="danger"
+                  onClick={() => this.scroll("#work")}
                 >
                   <h3 className="buttonText">WORK</h3>
                 </Button>
@@ -84,6 +85,7 @@ export default class App extends React.Component {
                 <Button
                   style={{ width: "10vw", height: "10vw" }}
                   variant="success"
+                  onClick={() => this.scroll("#project")}
                 >
                   <h3 className="buttonText">PROJECT</h3>
                 </Button>
@@ -92,6 +94,7 @@ export default class App extends React.Component {
                 <Button
                   style={{ width: "10vw", height: "10vw" }}
                   variant="secondary"
+                  onClick={() => this.scroll("#extra")}
                 >
                   <h3 className="buttonText">EXTRA</h3>
                 </Button>
@@ -116,6 +119,7 @@ export default class App extends React.Component {
             <Profile />
             <hr className="sep"/>
             <Skills />
+            <hr className="sep"/>
           </Container>
         </div>
       </div>

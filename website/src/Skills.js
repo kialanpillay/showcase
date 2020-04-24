@@ -5,9 +5,17 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
 import Carousel from "react-bootstrap/Carousel";
-import img01 from "./assets/react.png";
-import img02 from "./assets/javascript.svg";
-import img03 from "./assets/typescript.svg";
+import react from "./assets/react.png";
+import js from "./assets/javascript.svg";
+import ts from "./assets/typescript.svg";
+import python from "./assets/python.png";
+import matlab from "./assets/matlab.png";
+import R from "./assets/R.png";
+import java from "./assets/java.png";
+import golang from "./assets/golang.png";
+import sql from "./assets/mysql.svg";
+import keras from "./assets/keras.jpg"; 
+import tensorflow from "./assets/tensorflow.png"; 
 
 function Skills() {
   return (
@@ -29,7 +37,7 @@ function Skills() {
         <Col>
           <Carousel
             style={{
-              height: "24vw",
+              height: "28vw",
               width: "50vw",
             }}
           >
@@ -42,18 +50,89 @@ function Skills() {
                 }}
               >
                 <Col md="auto">
-                  <img width="80" src={img02}></img>
+                  <img width="100" src={js}></img>
                 </Col>
                 <Col md="auto">
-                  <img width="120" src={img01}></img>
+                  <img width="150" src={react}></img>
                 </Col>
                 <Col md="auto">
-                  <img width="80" src={img03}></img>
+                  <img width="100" src={ts}></img>
+                </Col>
+              </Row>
+              <Row
+                className="justify-content-md-center"
+                style={{
+                  marginTop: "6vh",
+                }}
+              >
+                <Col md="auto">
+                  <h4>JavaScript | ReactJS | TypeScript | HTML | CSS</h4>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item>
               <h1 className="stack">BACKEND</h1>
+              <Row
+                className="justify-content-md-center"
+                style={{
+                  marginTop: "6vh",
+                }}
+              >
+                <Col md="auto">
+                  <img width="70" src={java}></img>
+                </Col>
+                <Col md="auto">
+                  <img width="100" src={golang}></img>
+                </Col>
+                <Col md="auto">
+                  <img width="100" src={python}></img>
+                </Col>
+                <Col md="auto">
+                  <img width="120" src={sql}></img>
+                </Col>
+              </Row>
+              <Row
+                className="justify-content-md-center"
+                style={{
+                  marginTop: "6vh",
+                }}
+              >
+                <Col md="auto">
+                  <h4>Java | Golang | Python | C++ | SQL</h4>
+                </Col>
+              </Row>
+            </Carousel.Item>
+            <Carousel.Item>
+              <h1 className="stack">MACHINE LEARNING</h1>
+              <Row
+                className="justify-content-md-center"
+                style={{
+                  marginTop: "6vh",
+                }}
+              >
+                <Col md="auto">
+                  <img width="90" src={keras}></img>
+                </Col>
+                <Col md="auto">
+                  <img width="90" src={tensorflow}></img>
+                </Col>
+                <Col md="auto">
+                  <img width="100" src={matlab}></img>
+                </Col>
+                <Col md="auto">
+                  <img width="100" src={R}></img>
+                </Col>
+              </Row>
+              <Row
+                className="justify-content-md-center"
+                style={{
+                  marginTop: "6vh",
+                }}
+              >
+                <Col md="auto">
+                  <h4>Python | Keras | Tensorflow | Matlab | R</h4>
+                </Col>
+              </Row>
             </Carousel.Item>
           </Carousel>
         </Col>
@@ -65,7 +144,7 @@ function Skills() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border="warning"
           >
             <Card.Body>
               <Card.Title>Statistics</Card.Title>

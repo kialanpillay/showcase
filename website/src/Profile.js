@@ -42,7 +42,7 @@ function Profile() {
                 <h1>Durban, South Africa</h1>
               </Card.Text>
               <Card.Text>
-                <h1>3<sup>rd</sup> Year Student</h1>
+                <h1>Final Year Student</h1>
               </Card.Text>
             </Card.Body>
           </Card>
