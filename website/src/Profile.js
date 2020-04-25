@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Badge from "react-bootstrap/Badge";
 function Profile() {
   return (
     <div>
@@ -15,7 +16,7 @@ function Profile() {
         }}
       >
         <Col md="auto">
-          <h1 className="headingText" id="profile">PROFILE</h1>
+          <h1 className="sectionHeading" id="profile">PROFILE</h1>
         </Col>
       </Row>
       <Row>
@@ -36,7 +37,7 @@ function Profile() {
                 <h1>Kialan Pillay</h1>
               </Card.Text>
               <Card.Text>
-                <h1>5 March 2001 (19)</h1>
+                <h1>5 March 2001 <Badge pill variant="primary">19</Badge>{' '}</h1>
               </Card.Text>
               <Card.Text>
                 <h1>Durban, South Africa</h1>
@@ -54,16 +55,15 @@ function Profile() {
           >
             <Card.Body>
               <Card.Title>University of Cape Town</Card.Title>
-
+              <Card.Text>
+                <h3>Bachelor of Science</h3>
+              </Card.Text>
               <Card.Text>
                 <h3>Computer Science &amp; Statistics</h3>
               </Card.Text>
               <Card.Text>
-                <h1>GPA: 85</h1>
+                <h1>GPA: <Badge pill variant="dark">84.42</Badge></h1>
               </Card.Text>
-              <Button variant="dark" size="lg" style={{marginTop: "0vw" }}>
-                Transcript
-              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -80,7 +80,7 @@ function Profile() {
               <Card.Text>
                 <h2>4 Scholarships</h2>
               </Card.Text>
-              <Button variant="dark" size="lg" style={{marginTop: "0vw" }} href="https://kialan.co.za">
+              <Button variant="dark" size="md" style={{marginTop: "0vw" }} href="https://kialan.co.za">
                 View More
               </Button>
             </Card.Body>
