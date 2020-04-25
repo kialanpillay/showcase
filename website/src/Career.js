@@ -12,7 +12,6 @@ import ts from "./assets/typescript.svg";
 import js from "./assets/javascript.svg";
 import python from "./assets/python.png";
 import golang from "./assets/golang.png";
-import gatsby from "./assets/gatsby.png";
 import dynamodb from "./assets/dynamodb.png";
 
 function Career() {

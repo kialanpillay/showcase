@@ -5,6 +5,8 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
 import Badge from "react-bootstrap/Badge";
+import brickset from "./assets/brickset.png";
+import resume from "./assets/resume.png";
 
 function Projects() {
   return (
@@ -27,19 +29,20 @@ function Projects() {
           <Card
             style={{
               width: "10vw",
-              height: "20vw",
+              height: "24vw",
               textAlign: "left",
-              backgroundColor: "transparent",
             }}
             bg="success"
           >
             <Card.Body>
-              <Card.Title>Repository</Card.Title>
+              <Card.Title>
+                <h4>Code</h4>
+              </Card.Title>
               <Card.Text>
                 <a href="https://github.com/kialanpillay" target="_blank">
                   <i
                     class="fa fa-github"
-                    style={{ fontSize: "48px", color: "white" }}
+                    style={{ fontSize: "44px", color: "white" }}
                   ></i>
                 </a>
               </Card.Text>
@@ -55,7 +58,7 @@ function Projects() {
                 >
                   <i
                     class="fa fa-linkedin"
-                    style={{ fontSize: "48px", color: "white" }}
+                    style={{ fontSize: "44px", color: "white" }}
                   ></i>
                 </a>
               </Card.Text>
@@ -63,6 +66,35 @@ function Projects() {
                 <h3>
                   <Badge variant="dark">LinkedIn</Badge>
                 </h3>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card
+            style={{
+              width: "10vw",
+              marginTop: "4vw",
+              height: "36vw",
+              textAlign: "left",
+            }}
+            bg="success"
+          >
+            <Card.Body>
+              <Card.Title>
+                <h4>Projects</h4>
+              </Card.Title>
+              <Card.Text>
+                <h1 className="numericProjects">6</h1>
+                <h2>
+                  <Badge pill variant="dark">2020</Badge>
+                </h2>
+                <h1 className="numericProjects">3</h1>
+                <h2>
+                  <Badge pill variant="dark">2019</Badge>
+                </h2>
+                <h1 className="numericProjects">1</h1>
+                <h2>
+                  <Badge pill variant="dark">2016</Badge>
+                </h2>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -80,7 +112,12 @@ function Projects() {
             <tbody>
               <tr>
                 <td>
-                  <h3>Midas</h3>
+                  <h3>Midas </h3>
+                  <h2>
+                    <Badge pill variant="light">
+                      Μίδας
+                    </Badge>
+                  </h2>
                 </td>
                 <td>
                   ReactJS <br /> Python <br />
@@ -96,7 +133,12 @@ function Projects() {
               </tr>
               <tr>
                 <td>
-                  <h3>MLBeat</h3>
+                  <h3>ML.Beat</h3>
+                  <h2>
+                    <Badge style={{ width: "26%" }} variant="dark">
+                      B
+                    </Badge>
+                  </h2>
                 </td>
                 <td>
                   ReactJS <br /> Python <br />
@@ -113,6 +155,12 @@ function Projects() {
               <tr>
                 <td>
                   <h3>IBrickset</h3>
+                  <img
+                    width="40"
+                    src={brickset}
+                    alt="brickset"
+                    style={{ borderRadius: "98%" }}
+                  ></img>
                 </td>
                 <td>
                   React Native <br /> Javascript
@@ -129,6 +177,11 @@ function Projects() {
               <tr>
                 <td>
                   <h3>Academic Portfolio</h3>
+                  <h2>
+                    <Badge style={{ width: "26%" }} variant="warning">
+                      M
+                    </Badge>
+                  </h2>
                 </td>
                 <td>
                   ReactJS <br /> Javascript <br /> HTML <br /> CSS
@@ -144,6 +197,11 @@ function Projects() {
               <tr>
                 <td>
                   <h3>DataScaper</h3>
+                  <h2>
+                    <Badge style={{ width: "26%" }} variant="danger">
+                      D
+                    </Badge>
+                  </h2>
                 </td>
                 <td>Java</td>
                 <td>
@@ -157,6 +215,12 @@ function Projects() {
               <tr>
                 <td>
                   <h3>Résumé</h3>
+                  <img
+                    width="40"
+                    src={resume}
+                    alt="resume"
+                    style={{ borderRadius: "98%" }}
+                  ></img>
                 </td>
                 <td>
                   Gatsby <br /> Javascript <br /> HTML <br /> CSS{" "}
@@ -188,6 +252,11 @@ function Projects() {
               <tr>
                 <td>
                   <h3>FileShare</h3>
+                  <h2>
+                    <Badge style={{ width: "26%" }} variant="info">
+                      F
+                    </Badge>
+                  </h2>
                 </td>
                 <td>Java</td>
                 <td>
@@ -196,6 +265,27 @@ function Projects() {
                 </td>
                 <td>
                   <Badge variant="success">In Production</Badge>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>APFKZN</h3>
+                  <h2>
+                    <Badge style={{ width: "26%" }} variant="secondary">
+                      A
+                    </Badge>
+                  </h2>
+                </td>
+                <td>
+                  HTML <br /> CSS <br /> WordPress
+                </td>
+                <td>
+                  A website for the Association des Professeurs de Français of
+                  KwaZulu Natal, providing information and resources for the
+                  client organisation's members.
+                </td>
+                <td>
+                  <Badge variant="warning">Not Supported</Badge>
                 </td>
               </tr>
             </tbody>
