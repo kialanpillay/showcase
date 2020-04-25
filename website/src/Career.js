@@ -64,7 +64,7 @@ function Career() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="danger"
+            bg="danger"
           >
             <Card.Body>
               <Card.Title><h5>Wall of Fame</h5></Card.Title>

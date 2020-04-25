@@ -8,9 +8,10 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "./App.css";
 import Image from "./Image.js";
-import Profile from "./Profile.js"
-import Skills from "./Skills.js"
-import Career from "./Career.js"
+import Profile from "./Profile.js";
+import Skills from "./Skills.js";
+import Career from "./Career.js";
+import Projects from "./Projects.js";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -123,6 +124,7 @@ export default class App extends React.Component {
             <hr className="sep"/>
             <Career />
             <hr className="sep"/>
+            <Projects />
           </Container>
         </div>
       </div>

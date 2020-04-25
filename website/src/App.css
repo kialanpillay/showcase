@@ -61,6 +61,12 @@ html {
   font-size: 5vw;
 }
 
+.numericProjects {
+  display: inline;
+  color: white;
+  font-size: 5vw;
+}
+/*rgb(40,167,69);*/
 .sep {
   margin-top: 10vh;
   height: 4px;
