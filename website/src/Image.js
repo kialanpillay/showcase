@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import img from "./avatar.png";
+import img from "./assets/avatar.png";
 import Tooltip from "react-bootstrap/Tooltip";
 import Overlay from "react-bootstrap/Overlay";
 
@@ -18,7 +18,8 @@ function Image() {
         <img
           width="250vw"
           src={img}
-          alt="Profile Picture"
+          alt="Profile"
+          rel="noopener noreferrer"
           style={{
             marginLeft: "2vw",
             borderRadius: "50%",

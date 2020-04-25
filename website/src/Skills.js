@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Badge from "react-bootstrap/Badge";
 import Carousel from "react-bootstrap/Carousel";
 import react from "./assets/react.png";
 import js from "./assets/javascript.svg";
@@ -28,7 +27,7 @@ function Skills() {
         }}
       >
         <Col md="auto">
-          <h1 className="headingText" id="skills">
+          <h1 className="sectionHeading" id="skills">
             SKILLS
           </h1>
         </Col>
@@ -38,11 +37,11 @@ function Skills() {
           <Carousel
             style={{
               height: "28vw",
-              width: "50vw",
+              width: "51vw",
             }}
           >
             <Carousel.Item>
-              <h1 className="stack">FRONTEND</h1>
+              <h1 className="skillsHeading">FRONTEND</h1>
               <Row
                 className="justify-content-md-center"
                 style={{
@@ -50,13 +49,13 @@ function Skills() {
                 }}
               >
                 <Col md="auto">
-                  <img width="100" src={js}></img>
+                  <img width="100" src={js} alt="javascript"></img>
                 </Col>
                 <Col md="auto">
-                  <img width="150" src={react}></img>
+                  <img width="150" src={react} alt="react"></img>
                 </Col>
                 <Col md="auto">
-                  <img width="100" src={ts}></img>
+                  <img width="100" src={ts} alt="typescript"></img>
                 </Col>
               </Row>
               <Row
@@ -71,7 +70,7 @@ function Skills() {
               </Row>
             </Carousel.Item>
             <Carousel.Item>
-              <h1 className="stack">BACKEND</h1>
+              <h1 className="skillsHeading">BACKEND</h1>
               <Row
                 className="justify-content-md-center"
                 style={{
@@ -79,16 +78,16 @@ function Skills() {
                 }}
               >
                 <Col md="auto">
-                  <img width="70" src={java}></img>
+                  <img width="70" src={java} alt="java"></img>
                 </Col>
                 <Col md="auto">
-                  <img width="100" src={golang}></img>
+                  <img width="100" src={golang} alt="golang"></img>
                 </Col>
                 <Col md="auto">
-                  <img width="100" src={python}></img>
+                  <img width="100" src={python} alt="python"></img>
                 </Col>
                 <Col md="auto">
-                  <img width="120" src={sql}></img>
+                  <img width="120" src={sql} alt="sql"></img>
                 </Col>
               </Row>
               <Row
@@ -103,7 +102,7 @@ function Skills() {
               </Row>
             </Carousel.Item>
             <Carousel.Item>
-              <h1 className="stack">MACHINE LEARNING</h1>
+              <h1 className="skillsHeading">MACHINE LEARNING</h1>
               <Row
                 className="justify-content-md-center"
                 style={{
@@ -111,16 +110,16 @@ function Skills() {
                 }}
               >
                 <Col md="auto">
-                  <img width="90" src={keras}></img>
+                  <img width="90" src={keras} alt="keras"></img>
                 </Col>
                 <Col md="auto">
-                  <img width="90" src={tensorflow}></img>
+                  <img width="90" src={tensorflow} alt="tensorflow"></img>
                 </Col>
                 <Col md="auto">
-                  <img width="100" src={matlab}></img>
+                  <img width="100" src={matlab} alt="matlab"></img>
                 </Col>
                 <Col md="auto">
-                  <img width="100" src={R}></img>
+                  <img width="100" src={R} alt="R"></img>
                 </Col>
               </Row>
               <Row
@@ -159,9 +158,6 @@ function Skills() {
             </Card.Body>
           </Card>
         </Col>
-      </Row>
-      <Row>
-        <Col></Col>
       </Row>
     </div>
   );
