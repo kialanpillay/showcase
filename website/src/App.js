@@ -10,6 +10,7 @@ import "./App.css";
 import Image from "./Image.js";
 import Profile from "./Profile.js"
 import Skills from "./Skills.js"
+import Career from "./Career.js"
 
 export default class App extends React.Component {
   constructor(props) {
@@ -76,9 +77,9 @@ export default class App extends React.Component {
                 <Button
                   style={{ width: "10vw", height: "10vw" }}
                   variant="danger"
-                  onClick={() => this.scroll("#work")}
+                  onClick={() => this.scroll("#career")}
                 >
-                  <h3 className="buttonText">WORK</h3>
+                  <h3 className="buttonText">CAREER</h3>
                 </Button>
               </Col>
               <Col md="auto">
@@ -119,6 +120,8 @@ export default class App extends React.Component {
             <Profile />
             <hr className="sep"/>
             <Skills />
+            <hr className="sep"/>
+            <Career />
             <hr className="sep"/>
           </Container>
         </div>
