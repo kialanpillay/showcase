@@ -49,24 +49,24 @@ function Extra() {
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridName">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control type="name" placeholder="Enter name" />
+                    <Form.Control type="text" name="name" placeholder="Enter name" />
                   </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridSurname">
                     <Form.Label>Surname</Form.Label>
-                    <Form.Control type="surname" placeholder="Enter surname" />
+                    <Form.Control type="text" name="surname" placeholder="Enter surname" />
                   </Form.Group>
                 </Form.Row>
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
+                    <Form.Control type="text" name="email"placeholder="Enter email" />
                   </Form.Group>
                 </Form.Row>
 
                 <Form.Group controlId="formGridMessage">
                   <Form.Label>Message</Form.Label>
-                  <Form.Control type="message" placeholder="Hi!" />
+                  <Form.Control type="text" name="message" placeholder="Hi!" />
                 </Form.Group>
                 <Button variant="info" size="lg" type="submit">
                   Submit
