@@ -230,14 +230,14 @@ h4 {
   }
 
   #aws {
-    width: 15rem;
-    height: 9rem;
+    width: 30vh;
+    height: 18vh;
     margin-left: 4vh;
   }
 
   #electrum {
-    width: 15rem;
-    height: 6rem;
+    width: 30vh;
+    height: 12vh;
     margin-left: 4vh;
   }
 
