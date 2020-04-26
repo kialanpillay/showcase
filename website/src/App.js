@@ -96,7 +96,7 @@ export default class App extends React.Component {
               <Col md="auto">
                 <Button
                   style={{ width: "10vw", height: "10vw" }}
-                  variant="secondary"
+                  variant="info"
                   onClick={() => this.scroll("#extra")}
                 >
                   <h3 className="buttonText">EXTRA</h3>
