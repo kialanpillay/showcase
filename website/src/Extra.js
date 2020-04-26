@@ -26,6 +26,7 @@ function Extra() {
       <Row>
         <Col md={7} xs={12} style={{
               marginBottom: "2vh",
+              marginRight: "4vh",
             }}>
           <Card
             style={{
