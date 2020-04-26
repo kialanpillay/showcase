@@ -34,6 +34,7 @@ function Extra() {
               height: "60vh",
               textAlign: "left",
               marginRight: "4vw",
+              marginBottom: "4vw",
               backgroundColor: "transparent",
             }}
             border="light"
@@ -71,7 +72,7 @@ function Extra() {
                   <Form.Label>Message</Form.Label>
                   <Form.Control type="text" name="message" placeholder="Hi!" />
                 </Form.Group>
-                <Button variant="info" size="lg" type="submit">
+                <Button variant="info" size="md" type="submit">
                   Submit
                 </Button>
               </Form>
@@ -80,7 +81,7 @@ function Extra() {
         </Col>
         <Col md={4} xs={12}>
           <Card
-            style={{ width: "100%", height: "45vh", textAlign: "left" }}
+            style={{ width: "100%", height: "48vh", textAlign: "left" }}
             bg="info"
           >
             <Card.Body>
@@ -100,7 +101,7 @@ function Extra() {
                     </a>
                   </Col>
                   <Col>
-                    <h2>
+                    <h2 className="social">
                       <Badge variant="dark">@kialanpillay</Badge>
                     </h2>
                   </Col>
@@ -121,7 +122,7 @@ function Extra() {
                     </a>
                   </Col>
                   <Col>
-                    <h2>
+                    <h2 className="social">
                       <Badge variant="dark">Kialan Pillay</Badge>
                     </h2>
                   </Col>
@@ -142,7 +143,7 @@ function Extra() {
                     </a>
                   </Col>
                   <Col>
-                    <h2>
+                    <h2 className="social">
                       <Badge variant="dark">Kialan Pillay</Badge>
                     </h2>
                   </Col>
@@ -163,7 +164,7 @@ function Extra() {
                     </a>
                   </Col>
                   <Col>
-                    <h2>
+                    <h2 className="social">
                       <Badge variant="dark">Kialan Pillay</Badge>
                     </h2>
                   </Col>
