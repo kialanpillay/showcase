@@ -130,7 +130,7 @@ h4 {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (max-height: 900px){
   .body {
     color: white
   }
@@ -230,14 +230,14 @@ h4 {
   }
 
   #aws {
-    width: 24vh;
-    height: 14vh;
+    width: 30vh;
+    height: 18vh;
     margin-left: 4vh;
   }
 
   #electrum {
-    width: 24vh;
-    height: 10vh;
+    width: 30vh;
+    height: 12vh;
     margin-left: 4vh;
   }
 
