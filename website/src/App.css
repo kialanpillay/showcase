@@ -231,11 +231,13 @@ h4 {
 
   #aws {
     width: 18vh;
+    height: 11vh;
     margin-left: 4vh;
   }
 
   #electrum {
     width: 20vh;
+    height: 10vh;
     margin-left: 4vh;
   }
 
