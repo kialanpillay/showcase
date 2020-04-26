@@ -57,45 +57,45 @@ export default class App extends React.Component {
                 marginTop: "10vh",
               }}
             >
-              <Col md="auto">
+              <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "10vw", height: "10vw" }}
+                  style={{ width: "20vh", height: "20vh" }}
                   variant="primary"
                   onClick={() => this.scroll("#profile")}
                 >
                   <h3 className="buttonText">PROFILE</h3>
                 </Button>
               </Col>
-              <Col md="auto">
+              <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "10vw", height: "10vw" }}
+                  style={{ width: "20vh", height: "20vh" }}
                   variant="warning"
                   onClick={() => this.scroll("#skills")}
                 >
                   <h3 className="buttonText">SKILLS</h3>
                 </Button>
               </Col>
-              <Col md="auto">
+              <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "10vw", height: "10vw" }}
+                  style={{ width: "20vh", height: "20vh" }}
                   variant="danger"
                   onClick={() => this.scroll("#career")}
                 >
                   <h3 className="buttonText">CAREER</h3>
                 </Button>
               </Col>
-              <Col md="auto">
+              <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "10vw", height: "10vw" }}
+                  style={{ width: "20vh", height: "20vh"}}
                   variant="success"
                   onClick={() => this.scroll("#project")}
                 >
                   <h3 className="buttonText">PROJECT</h3>
                 </Button>
               </Col>
-              <Col md="auto">
+              <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "10vw", height: "10vw" }}
+                  style={{ width: "20vh", height: "20vh"}}
                   variant="info"
                   onClick={() => this.scroll("#extra")}
                 >

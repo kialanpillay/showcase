@@ -27,7 +27,7 @@ function Image() {
           }}
         ></img>
       </a>
-      <Overlay target={target.current} show={show} placement="right">
+      <Overlay target={target.current} show={show} placement="top">
         {(props) => (
           <Tooltip id="overlay-example" {...props}>
             Bonus Content! Click to visit my digital resume; a static site built with Gatsby.

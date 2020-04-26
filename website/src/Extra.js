@@ -13,21 +13,23 @@ function Extra() {
       <Row
         style={{
           width: "100%",
-          marginTop: "10vh",
+          marginTop: "6vw",
           marginBottom: "6vh",
         }}
       >
-        <Col md="auto">
+        <Col md="auto" xs="auto">
           <h1 className="sectionHeading" id="extra">
             EXTRA
           </h1>
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col md={7} xs={12} style={{
+              marginBottom: "2vh",
+            }}>
           <Card
             style={{
-              width: "40vw",
+              width: "100%",
               height: "60vh",
               textAlign: "left",
               marginRight: "4vw",
@@ -75,9 +77,9 @@ function Extra() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col md={4} xs={12}>
           <Card
-            style={{ width: "25vw", height: "45vh", textAlign: "left" }}
+            style={{ width: "100%", height: "45vh", textAlign: "left" }}
             bg="info"
           >
             <Card.Body>

@@ -14,24 +14,30 @@ function Projects() {
       <Row
         style={{
           width: "100%",
-          marginTop: "10vh",
-          marginBottom: "6vh",
+          marginTop: "6vw",
+          marginBottom: "2vh",
         }}
       >
-        <Col md="auto">
+        <Col md="auto" xs="auto">
           <h1 className="sectionHeading" id="project">
             PROJECTS
           </h1>
         </Col>
       </Row>
       <Row>
-        <Col md="auto">
+        <Col
+          md={2}
+          xs={12}
+          style={{
+            marginBottom: "2vh",
+          }}
+        >
           <Card
             style={{
-              width: "10vw",
+              width: "100%",
               height: "24vh",
               textAlign: "left",
-              backgroundColor: "transparent"
+              backgroundColor: "transparent",
             }}
             border="success"
           >
@@ -39,25 +45,24 @@ function Projects() {
               <Card.Title>
                 <h4>Code</h4>
               </Card.Title>
-              <Card.Text>
+              <div>
                 <a href="https://github.com/kialanpillay" target="_blank">
                   <i
                     class="fa fa-github"
                     style={{ fontSize: "44px", color: "white" }}
                   ></i>
                 </a>
-              </Card.Text>
-              <Card.Text>
+              </div>
+              <div>
                 <h3>
                   <Badge variant="success">GitHub</Badge>
                 </h3>
-              </Card.Text>
-
+              </div>
             </Card.Body>
           </Card>
           <Card
             style={{
-              width: "10vw",
+              width: "100%",
               marginTop: "4vw",
               height: "60vh",
               textAlign: "left",
@@ -68,25 +73,31 @@ function Projects() {
               <Card.Title>
                 <h4>History</h4>
               </Card.Title>
-              <Card.Text>
+              <div>
                 <h1 className="numericProjects">6</h1>
                 <h2>
-                  <Badge pill variant="dark">2020</Badge>
+                  <Badge pill variant="dark">
+                    2020
+                  </Badge>
                 </h2>
                 <h1 className="numericProjects">3</h1>
                 <h2>
-                  <Badge pill variant="dark">2019</Badge>
+                  <Badge pill variant="dark">
+                    2019
+                  </Badge>
                 </h2>
                 <h1 className="numericProjects">1</h1>
                 <h2>
-                  <Badge pill variant="dark">2016</Badge>
+                  <Badge pill variant="dark">
+                    2016
+                  </Badge>
                 </h2>
-              </Card.Text>
+              </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Table striped bordered style={{ color: "white" }}>
+        <Col md={10} xs={12}>
+          <Table responsive striped bordered style={{ color: "white" }}>
             <thead style={{ fontSize: "1.6vw" }}>
               <tr>
                 <th>Project</th>

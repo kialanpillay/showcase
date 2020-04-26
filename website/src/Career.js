@@ -20,21 +20,27 @@ function Career() {
       <Row
         style={{
           width: "100%",
-          marginTop: "10vh",
-          marginBottom: "6vh",
+          marginTop: "6vw",
+          marginBottom: "2vh",
         }}
       >
-        <Col md="auto">
+        <Col md="auto" xs="auto">
           <h1 className="sectionHeading" id="career">
             CAREER
           </h1>
         </Col>
       </Row>
       <Row>
-      <Col>
+        <Col
+          md={3}
+          xs={12}
+          style={{
+            marginRight: "4vw",
+          }}
+        >
           <Card
             style={{
-              width: "20vw",
+              width: "100%",
               height: "50vh",
               textAlign: "left",
               backgroundColor: "transparent",
@@ -42,36 +48,47 @@ function Career() {
             border="danger"
           >
             <Card.Body>
-              <Card.Title><h5>Wall of Fame</h5></Card.Title>
-              <Card.Text></Card.Text>
-              <Card.Text>
-              <Row className="justify-content-md-center">
-                <img
-                  style={{
-                    marginTop: "2vw",
-                  }}
-                  width={160}
-                  src={aws}
-                  alt="AWS Logo"
-                /></Row>
-              </Card.Text>
-              <Card.Text>
-              <Row className="justify-content-md-center">
-                <img
-                  style={{
-                    marginTop: "2vw",
-                  }}
-                  width={180}
-                  src={electrum}
-                  alt="Electrum Logo"
-                /></Row>
-              </Card.Text>
+              <Card.Title>
+                <h5>Wall of Fame</h5>
+              </Card.Title>
+              <div></div>
+              <div>
+                <Row className="justify-content-md-center">
+                  <img
+                    id="aws"
+                    style={{
+                      marginTop: "2vw",
+                    }}
+                    width={160}
+                    src={aws}
+                    alt="AWS Logo"
+                  />
+                </Row>
+              </div>
+              <div>
+                <Row className="justify-content-md-center">
+                  <img
+                    id="electrum"
+                    style={{
+                      marginTop: "2vw",
+                    }}
+                    width={180}
+                    src={electrum}
+                    alt="Electrum Logo"
+                  />
+                </Row>
+              </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col md="auto" style={{
-              marginRight: "4vw",
-            }}>
+        <Col
+          md={4}
+          xs={12}
+          style={{
+            marginRight: "4vw",
+            marginBottom: "2vh",
+          }}
+        >
           <Row>
             <h1 className="numericCareer">4</h1>
             <h1 className="careerText">Internships</h1>
@@ -81,9 +98,14 @@ function Career() {
             <h1 className="careerText">Companies</h1>
           </Row>
         </Col>
-        <Col md="auto" style={{
-              width: "27vw",
-            }}>
+        <Col
+          md={3}
+          xs={12}
+          style={{
+            width: "27vw",
+            marginBottom: "2vh",
+          }}
+        >
           <Row>
             <h1 className="numericCareer">4</h1>
             <h1 className="careerText">Projects</h1>
@@ -93,27 +115,29 @@ function Career() {
             <h1 className="careerText">Months</h1>
           </Row>
         </Col>
-        
       </Row>
       <Row
         style={{
-          width: "100%",
           marginBottom: "6vh",
         }}
       >
-        <Col md="auto">
+        <Col md={12} sm={12} style={{
+          marginLeft: "1vh",
+          marginRight: "1vh",
+        }}>
           <Carousel
             style={{
               marginTop: "6vw",
-              height: "60vh",
-              width: "80vw",
+              width: "100%",
+              height: "60vh"
             }}
           >
             <Carousel.Item>
               <Row className="justify-content-md-center">
                 <Card
                   style={{
-                    width: "60vw",
+                    marginLeft: "0vh",
+                    width: "75%",
                     height: "50vh",
                     textAlign: "left",
                     backgroundColor: "transparent",
@@ -124,11 +148,15 @@ function Career() {
                     <Card.Title>Data File</Card.Title>
                     <Row>
                       <Col md="auto">
-                        <Card.Text>
+                        <div>
                           <h4 className="careerName">Amazon Web Services</h4>
                           <h5>Software Developement Engineer Intern</h5>
-                          <h5><Badge pill variant="danger">2019 - 2020</Badge></h5>
-                        </Card.Text>
+                          <h5>
+                            <Badge pill variant="danger">
+                              2019 - 2020
+                            </Badge>
+                          </h5>
+                        </div>
                       </Col>
                       <Col>
                         <Row
@@ -153,7 +181,7 @@ function Career() {
                         </Row>
                       </Col>
                     </Row>
-                    <Card.Text>
+                    <div>
                       <h5 className="recordText">
                         Reduced operational load for the Managed Deployments
                         team by developing and implemented an information
@@ -162,8 +190,8 @@ function Career() {
                         server backend, and a DynamoDB repository for
                         persistence.
                       </h5>
-                    </Card.Text>
-                    <Card.Text>
+                    </div>
+                    <div>
                       <h5 className="recordText">
                         Discovered key insights concerning deployments, and
                         drafted a roadmap for future work by conducting an
@@ -171,7 +199,7 @@ function Career() {
                         failure predictive analytics, utilising Logistic
                         Regression, ANNs and Bayesian Networks in Python.
                       </h5>
-                    </Card.Text>
+                    </div>
                   </Card.Body>
                 </Card>
               </Row>
@@ -180,7 +208,8 @@ function Career() {
               <Row className="justify-content-md-center">
                 <Card
                   style={{
-                    width: "60vw",
+                    marginLeft: "0vh",
+                    width: "75%",
                     height: "50vh",
                     textAlign: "left",
                     backgroundColor: "transparent",
@@ -191,11 +220,15 @@ function Career() {
                     <Card.Title>Data File</Card.Title>
                     <Row>
                       <Col md="auto">
-                        <Card.Text>
+                        <div>
                           <h4 className="careerName">Electrum Payments</h4>
                           <h5>Software Developer Intern</h5>
-                          <h5><Badge pill variant="danger">2019</Badge></h5>
-                        </Card.Text>
+                          <h5>
+                            <Badge pill variant="danger">
+                              2019
+                            </Badge>
+                          </h5>
+                        </div>
                       </Col>
                       <Col>
                         <Row
@@ -217,19 +250,19 @@ function Career() {
                         </Row>
                       </Col>
                     </Row>
-                    <Card.Text>
+                    <div>
                       <h5 className="recordText">
                         Developed a MVP for a new API Documentation website for
                         Electrum's open-source services, built with Gatsby, a
                         React-based framework.
                       </h5>
-                    </Card.Text>
-                    <Card.Text>
+                    </div>
+                    <div>
                       <h5 className="recordText">
                         Configured Docker files and continuous integration and
                         deployment with CircleCI.
                       </h5>
-                    </Card.Text>
+                    </div>
                   </Card.Body>
                 </Card>
               </Row>

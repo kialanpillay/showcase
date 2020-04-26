@@ -127,3 +127,153 @@ h4 {
   letter-spacing: 0.2rem;
   text-align: left;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .body {
+    color: white
+  }
+  
+  .title {
+    font-size: 10vw;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 7vw;
+    margin-bottom: 2rem;
+  }
+  .vl {
+    border-left: 6px solid white;
+    height: 50%;
+    position: relative;
+    display: none;
+  }
+  
+  .buttonText {
+    font-size: 5vw;
+    text-align: center;
+    letter-spacing: 0.15rem;
+  }
+  
+  .sectionHeading {
+    font-size: 12vw;
+    text-align: center;
+    letter-spacing: 1rem;
+    margin-left: 1vh;
+  }
+  
+  .image {
+    width: 6vh;
+  }
+
+  .leadingImage {
+    margin-left: 3vh;
+    width: 6vh;
+  }
+  
+  #react {
+    width: 9vh;
+  }
+
+  #java {
+    width: 5vh;
+  }
+
+  #sql {
+    width: 9vh;
+  }
+
+  #aws {
+    width: 66vw;
+    margin-left: 4vh;
+  }
+
+  #electrum {
+    width: 80vw;
+    margin-left: 4vh;
+  }
+
+  .numeric {
+    display: inline;
+    color: #f6c444;
+    font-size: 8vh;
+  }
+  
+  .numericProjects {
+    display: inline;
+    color: white;
+    font-size: 8vh;
+  }
+
+  .sep {
+    margin-top: 4vh;
+    height: 4px;
+    background-color: rgb(52,62,65);
+  }
+  
+  .skillsHeading {
+    color: #f6c444;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-left: 1vh;
+  }
+  
+  h1 {
+    font-size: 8vw;
+  }
+  
+  h2 {
+    font-size: 8vw;
+  }
+  
+  h3 {
+    font-size: 7vw;
+  }
+  
+  h4 {
+    font-size: 4vw;
+  }
+  
+  .careerText {
+    margin-top: 4vh;
+    font-size: 5vh;
+    text-align: center;
+  }
+  
+  .careerName {
+    font-size: 3vw;
+  }
+  
+  .numericCareer {
+    color: rgb(223,53,70);
+    font-size: 10vh;
+    width: 20%;
+    margin-left: 2vh;
+    text-align: left;
+  }
+  
+  .stackSubtitle {
+    margin-left: 2vh;
+    font-size: 1vh;
+    letter-spacing: 0.2rem;
+  }
+
+  .stack {
+    margin-top: 6vh;
+    font-size: 4vw;
+  }
+  
+  .recordText {
+    font-size: 2.4vw;
+    text-align: justify;
+  }
+  
+  .contactHeading {
+    color: white;
+    letter-spacing: 0.2rem;
+    text-align: left;
+  }
+}
