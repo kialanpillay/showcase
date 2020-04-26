@@ -126,11 +126,31 @@ function Extra() {
                 <Row>
                   <Col>
                     <a
-                      href="https://instagram.com/kialanpillay"
+                      href="https://facebook.com/"
                       target="_blank"
                     >
                       <i
                         class="fa fa-facebook"
+                        style={{ fontSize: "48px", color: "white" }}
+                      ></i>
+                    </a>
+                  </Col>
+                  <Col>
+                    <h2>
+                      <Badge variant="dark">Kialan Pillay</Badge>
+                    </h2>
+                  </Col>
+                </Row>
+              </Card.Text>
+              <Card.Text>
+                <Row>
+                  <Col>
+                    <a
+                      href="https://flickr.com/photos/188051225@N03/"
+                      target="_blank"
+                    >
+                      <i
+                        class="fa fa-flickr"
                         style={{ fontSize: "48px", color: "white" }}
                       ></i>
                     </a>
