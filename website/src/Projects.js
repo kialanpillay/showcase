@@ -35,7 +35,7 @@ function Projects() {
           <Card
             style={{
               width: "100%",
-              height: "24vh",
+              height: "10rem",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
@@ -68,7 +68,7 @@ function Projects() {
             style={{
               width: "100%",
               marginTop: "4vw",
-              height: "60vh",
+              height: "30rem",
               textAlign: "left",
             }}
             bg="success"

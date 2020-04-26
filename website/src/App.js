@@ -59,7 +59,7 @@ export default class App extends React.Component {
             >
               <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "20vh", height: "20vh" }}
+                  style={{ width: "10rem", height: "10rem" }}
                   variant="primary"
                   onClick={() => this.scroll("#profile")}
                 >
@@ -68,7 +68,7 @@ export default class App extends React.Component {
               </Col>
               <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "20vh", height: "20vh" }}
+                  style={{ width: "10rem", height: "10rem" }}
                   variant="warning"
                   onClick={() => this.scroll("#skills")}
                 >
@@ -77,7 +77,7 @@ export default class App extends React.Component {
               </Col>
               <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "20vh", height: "20vh" }}
+                  style={{ width: "10rem", height: "10rem" }}
                   variant="danger"
                   onClick={() => this.scroll("#career")}
                 >
@@ -86,7 +86,7 @@ export default class App extends React.Component {
               </Col>
               <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "20vh", height: "20vh"}}
+                  style={{ width: "10rem", height: "10rem"}}
                   variant="success"
                   onClick={() => this.scroll("#project")}
                 >
@@ -95,7 +95,7 @@ export default class App extends React.Component {
               </Col>
               <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
-                  style={{ width: "20vh", height: "20vh"}}
+                  style={{ width: "10rem", height: "10rem"}}
                   variant="info"
                   onClick={() => this.scroll("#extra")}
                 >

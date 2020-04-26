@@ -41,7 +41,7 @@ function Career() {
           <Card
             style={{
               width: "100%",
-              height: "50vh",
+              height: "22rem",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
@@ -85,7 +85,7 @@ function Career() {
           md={4}
           xs={12}
           style={{
-            marginRight: "4vw",
+            marginRight: "2vw",
             marginBottom: "2vh",
           }}
         >
@@ -101,8 +101,7 @@ function Career() {
         <Col
           md={3}
           xs={12}
-          style={{
-            width: "27vw",
+          style={{ 
             marginBottom: "2vh",
           }}
         >
@@ -129,7 +128,7 @@ function Career() {
             style={{
               marginTop: "6vw",
               width: "100%",
-              height: "60vh"
+              height: "30rem"
             }}
           >
             <Carousel.Item>
@@ -138,14 +137,14 @@ function Career() {
                   style={{
                     marginLeft: "0vh",
                     width: "75%",
-                    height: "50vh",
+                    height: "26rem",
                     textAlign: "left",
                     backgroundColor: "transparent",
                   }}
                   border="light"
                 >
                   <Card.Body>
-                    <Card.Title>Data File</Card.Title>
+                    <Card.Title>Info Card</Card.Title>
                     <Row>
                       <Col md="auto">
                         <div>
@@ -217,7 +216,7 @@ function Career() {
                   border="light"
                 >
                   <Card.Body>
-                    <Card.Title>Data File</Card.Title>
+                    <Card.Title>Info Card</Card.Title>
                     <Row>
                       <Col md="auto">
                         <div>

@@ -36,7 +36,7 @@ function Skills() {
         <Col md={8} xs={12}>
           <Carousel
             style={{
-              height: "44vh",
+              height: "20rem",
               width: "100%",
             }}
           >

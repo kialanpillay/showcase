@@ -31,7 +31,7 @@ function Extra() {
           <Card
             style={{
               width: "100%",
-              height: "60vh",
+              height: "28rem",
               textAlign: "left",
               marginRight: "4vw",
               marginBottom: "4vw",
@@ -81,7 +81,7 @@ function Extra() {
         </Col>
         <Col md={4} xs={12}>
           <Card
-            style={{ width: "100%", height: "48vh", textAlign: "left" }}
+            style={{ width: "100%", height: "22rem", textAlign: "left" }}
             bg="info"
           >
             <Card.Body>

@@ -26,14 +26,14 @@ function Profile() {
           <Card
             style={{
               width: "100%",
-              height: "44vh",
+              height: "20rem",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
             border="light"
           >
             <Card.Body>
-              <Card.Title>Data File</Card.Title>
+              <Card.Title>Bio Data</Card.Title>
               <div>
                 <h1>Kialan Pillay</h1>
               </div>
@@ -56,7 +56,7 @@ function Profile() {
         </Col>
         <Col md={3} xs={12} style={{ marginBottom: "2vh" }}>
           <Card
-            style={{ width: "100%", height: "36vh", textAlign: "left" }}
+            style={{ width: "100%", height: "18rem", textAlign: "left" }}
             bg="primary"
           >
             <Card.Body>
@@ -80,7 +80,7 @@ function Profile() {
         </Col>
         <Col md={3} xs={12} style={{ marginBottom: "2vh" }}>
           <Card
-            style={{ width: "100%", height: "36vh", textAlign: "left" }}
+            style={{ width: "100%", height: "18rem", textAlign: "left" }}
             bg="primary"
           >
             <Card.Body>
