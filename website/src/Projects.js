@@ -140,7 +140,7 @@ function Projects() {
               </tr>
               <tr>
                 <td>
-                  <h3>IBrickset</h3>
+                  <h3>iBrickset</h3>
                   <img
                     width="40"
                     src={brickset}
@@ -149,7 +149,7 @@ function Projects() {
                   ></img>
                 </td>
                 <td>
-                  React Native <br /> Javascript
+                  React Native <br /> Javascript <br /> CSS
                 </td>
                 <td>
                   A React Native IOS application that provides a mobile
