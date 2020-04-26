@@ -42,8 +42,8 @@ export default class App extends React.Component {
               }}
             >
               <Col md="auto">
-                <h1 class="title">Hi, I'm Kialan</h1>
-                <h1 class="subtitle">Welcome to my showcase.</h1>
+                <h1 className="title">Hi, I'm Kialan</h1>
+                <h1 className="subtitle">Welcome to my showcase.</h1>
               </Col>
               <Col md="auto">
                 <div className="vl"></div>

@@ -11,6 +11,7 @@ function Image() {
     <>
       <a
         href="https://kialan.co.za"
+        rel="noopener noreferrer"
         target="_blank"
         ref={target}
         onMouseEnter={() => setShow(!show)}

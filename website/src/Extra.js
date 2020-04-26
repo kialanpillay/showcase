@@ -90,10 +90,11 @@ function Extra() {
                   <Col>
                     <a
                       href="https://instagram.com/kialanpillay"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <i
-                        class="fa fa-instagram"
+                        className="fa fa-instagram"
                         style={{ fontSize: "48px", color: "white" }}
                       ></i>
                     </a>
@@ -110,10 +111,11 @@ function Extra() {
                   <Col>
                     <a
                       href="https://linkedin.com/in/kialan-p-a63779140/"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <i
-                        class="fa fa-linkedin"
+                        className="fa fa-linkedin"
                         style={{ fontSize: "48px", color: "white" }}
                       ></i>
                     </a>
@@ -130,10 +132,11 @@ function Extra() {
                   <Col>
                     <a
                       href="https://facebook.com/"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <i
-                        class="fa fa-facebook"
+                        className="fa fa-facebook"
                         style={{ fontSize: "48px", color: "white" }}
                       ></i>
                     </a>
@@ -150,10 +153,11 @@ function Extra() {
                   <Col>
                     <a
                       href="https://flickr.com/photos/188051225@N03/"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <i
-                        class="fa fa-flickr"
+                        className="fa fa-flickr"
                         style={{ fontSize: "48px", color: "white" }}
                       ></i>
                     </a>

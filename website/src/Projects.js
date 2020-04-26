@@ -46,9 +46,13 @@ function Projects() {
                 <h4>Code</h4>
               </Card.Title>
               <div>
-                <a href="https://github.com/kialanpillay" target="_blank">
+                <a
+                  href="https://github.com/kialanpillay"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i
-                    class="fa fa-github"
+                    className="fa fa-github"
                     style={{ fontSize: "44px", color: "white" }}
                   ></i>
                 </a>
