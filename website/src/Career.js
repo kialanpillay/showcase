@@ -59,7 +59,7 @@ function Career() {
           <Card
             style={{
               width: "20vw",
-              height: "28vw",
+              height: "50vh",
               textAlign: "left",
               backgroundColor: "transparent",
             }}

@@ -121,3 +121,9 @@ h4 {
   font-size: 1.3vw;
   text-align: justify;
 }
+
+.contactHeading {
+  color: white;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}

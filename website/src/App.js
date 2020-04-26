@@ -12,6 +12,7 @@ import Profile from "./Profile.js";
 import Skills from "./Skills.js";
 import Career from "./Career.js";
 import Projects from "./Projects.js";
+import Extra from "./Extra.js";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -125,6 +126,8 @@ export default class App extends React.Component {
             <Career />
             <hr className="sep"/>
             <Projects />
+            <hr className="sep"/>
+            <Extra />
           </Container>
         </div>
       </div>

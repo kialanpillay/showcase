@@ -29,10 +29,11 @@ function Projects() {
           <Card
             style={{
               width: "10vw",
-              height: "24vw",
+              height: "24vh",
               textAlign: "left",
+              backgroundColor: "transparent"
             }}
-            bg="success"
+            border="success"
           >
             <Card.Body>
               <Card.Title>
@@ -48,39 +49,24 @@ function Projects() {
               </Card.Text>
               <Card.Text>
                 <h3>
-                  <Badge variant="dark">GitHub</Badge>
+                  <Badge variant="success">GitHub</Badge>
                 </h3>
               </Card.Text>
-              <Card.Text>
-                <a
-                  href="https://https://www.linkedin.com/in/kialan-p-a63779140/"
-                  target="_blank"
-                >
-                  <i
-                    class="fa fa-linkedin"
-                    style={{ fontSize: "44px", color: "white" }}
-                  ></i>
-                </a>
-              </Card.Text>
-              <Card.Text>
-                <h3>
-                  <Badge variant="dark">LinkedIn</Badge>
-                </h3>
-              </Card.Text>
+
             </Card.Body>
           </Card>
           <Card
             style={{
               width: "10vw",
               marginTop: "4vw",
-              height: "36vw",
+              height: "60vh",
               textAlign: "left",
             }}
             bg="success"
           >
             <Card.Body>
               <Card.Title>
-                <h4>Projects</h4>
+                <h4>History</h4>
               </Card.Title>
               <Card.Text>
                 <h1 className="numericProjects">6</h1>

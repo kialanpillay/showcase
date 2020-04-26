@@ -24,7 +24,7 @@ function Profile() {
           <Card
             style={{
               width: "28vw",
-              height: "24vw",
+              height: "44vh",
               textAlign: "left",
               marginRight: "4vw",
               backgroundColor: "transparent",
@@ -50,7 +50,7 @@ function Profile() {
         </Col>
         <Col md="auto">
           <Card
-            style={{ width: "20vw", height: "20vw", textAlign: "left" }}
+            style={{ width: "20vw", height: "37vh", textAlign: "left" }}
             bg="primary"
           >
             <Card.Body>
@@ -69,7 +69,7 @@ function Profile() {
         </Col>
         <Col md="auto">
           <Card
-            style={{ width: "20vw", height: "20vw", textAlign: "left" }}
+            style={{ width: "20vw", height: "37vh", textAlign: "left" }}
             bg="primary"
           >
             <Card.Body>
