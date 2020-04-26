@@ -74,19 +74,19 @@ function Projects() {
                 <h4>History</h4>
               </Card.Title>
               <div>
-                <h1 className="numericProjects">6</h1>
+                <h1 className="projectNumeric">6</h1>
                 <h2>
                   <Badge pill variant="dark">
                     2020
                   </Badge>
                 </h2>
-                <h1 className="numericProjects">3</h1>
+                <h1 className="projectNumeric">3</h1>
                 <h2>
                   <Badge pill variant="dark">
                     2019
                   </Badge>
                 </h2>
-                <h1 className="numericProjects">1</h1>
+                <h1 className="projectNumeric">1</h1>
                 <h2>
                   <Badge pill variant="dark">
                     2016

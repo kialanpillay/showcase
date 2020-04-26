@@ -90,12 +90,12 @@ function Career() {
           }}
         >
           <Row>
-            <h1 className="numericCareer">4</h1>
-            <h1 className="careerText">Internships</h1>
+            <h1 className="careerNumeric">4</h1>
+            <h1 className="careerSubtitle">Internships</h1>
           </Row>
           <Row>
-            <h1 className="numericCareer">2</h1>
-            <h1 className="careerText">Companies</h1>
+            <h1 className="careerNumeric">2</h1>
+            <h1 className="careerSubtitle">Companies</h1>
           </Row>
         </Col>
         <Col
@@ -107,12 +107,12 @@ function Career() {
           }}
         >
           <Row>
-            <h1 className="numericCareer">4</h1>
-            <h1 className="careerText">Projects</h1>
+            <h1 className="careerNumeric">4</h1>
+            <h1 className="careerSubtitle">Projects</h1>
           </Row>
           <Row>
-            <h1 className="numericCareer">6</h1>
-            <h1 className="careerText">Months</h1>
+            <h1 className="careerNumeric">6</h1>
+            <h1 className="careerSubtitle">Months</h1>
           </Row>
         </Col>
       </Row>
@@ -173,16 +173,16 @@ function Career() {
                             marginBottom: "3vw",
                           }}
                         >
-                          <img width="60" src={react} alt="react"></img>
-                          <img width="40" src={ts} alt="typescript"></img>
-                          <img width="60" src={dynamodb} alt="dynamodb"></img>
-                          <img width="40" src={golang} alt="golang"></img>
-                          <img width="42" src={python} alt="python"></img>
+                          <img className="stackImage" id="stackReact" width="60" src={react} alt="react"></img>
+                          <img className="stackImage" width="40" src={ts} alt="typescript"></img>
+                          <img className="stackImage" width="60" src={dynamodb} alt="dynamodb"></img>
+                          <img className="stackImage" width="40" src={golang} alt="golang"></img>
+                          <img className="stackImage" width="42" src={python} alt="python"></img>
                         </Row>
                       </Col>
                     </Row>
                     <div>
-                      <h5 className="recordText">
+                      <h5 className="careerText">
                         Reduced operational load for the Managed Deployments
                         team by developing and implemented an information
                         linking and tracking system. Typescript and React was
@@ -192,7 +192,7 @@ function Career() {
                       </h5>
                     </div>
                     <div>
-                      <h5 className="recordText">
+                      <h5 className="careerText">
                         Discovered key insights concerning deployments, and
                         drafted a roadmap for future work by conducting an
                         investigation into using Machine Learning for deployment
@@ -245,20 +245,20 @@ function Career() {
                             marginBottom: "3vw",
                           }}
                         >
-                          <img width="60" src={react} alt="react"></img>
-                          <img width="40" src={js} alt="javascript"></img>
+                          <img className="stackImage" id="stackReact" width="60" src={react} alt="react"></img>
+                          <img className="stackImage" width="40" src={js} alt="javascript"></img>
                         </Row>
                       </Col>
                     </Row>
                     <div>
-                      <h5 className="recordText">
+                      <h5 className="careerText">
                         Developed a MVP for a new API Documentation website for
                         Electrum's open-source services, built with Gatsby, a
                         React-based framework.
                       </h5>
                     </div>
                     <div>
-                      <h5 className="recordText">
+                      <h5 className="careerText">
                         Configured Docker files and continuous integration and
                         deployment with CircleCI.
                       </h5>
