@@ -31,31 +31,7 @@ function Career() {
         </Col>
       </Row>
       <Row>
-        <Col md="auto" style={{
-              marginRight: "4vw",
-            }}>
-          <Row>
-            <h1 className="numericCareer">4</h1>
-            <h1 className="careerText">Internships</h1>
-          </Row>
-          <Row>
-            <h1 className="numericCareer">2</h1>
-            <h1 className="careerText">Companies</h1>
-          </Row>
-        </Col>
-        <Col md="auto" style={{
-              width: "27vw",
-            }}>
-          <Row>
-            <h1 className="numericCareer">4</h1>
-            <h1 className="careerText">Projects</h1>
-          </Row>
-          <Row>
-            <h1 className="numericCareer">6</h1>
-            <h1 className="careerText">Months</h1>
-          </Row>
-        </Col>
-        <Col>
+      <Col>
           <Card
             style={{
               width: "20vw",
@@ -63,7 +39,7 @@ function Career() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            bg="danger"
+            border="danger"
           >
             <Card.Body>
               <Card.Title><h5>Wall of Fame</h5></Card.Title>
@@ -93,6 +69,31 @@ function Career() {
             </Card.Body>
           </Card>
         </Col>
+        <Col md="auto" style={{
+              marginRight: "4vw",
+            }}>
+          <Row>
+            <h1 className="numericCareer">4</h1>
+            <h1 className="careerText">Internships</h1>
+          </Row>
+          <Row>
+            <h1 className="numericCareer">2</h1>
+            <h1 className="careerText">Companies</h1>
+          </Row>
+        </Col>
+        <Col md="auto" style={{
+              width: "27vw",
+            }}>
+          <Row>
+            <h1 className="numericCareer">4</h1>
+            <h1 className="careerText">Projects</h1>
+          </Row>
+          <Row>
+            <h1 className="numericCareer">6</h1>
+            <h1 className="careerText">Months</h1>
+          </Row>
+        </Col>
+        
       </Row>
       <Row
         style={{
