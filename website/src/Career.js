@@ -39,11 +39,11 @@ function Career() {
           }}
         >
           <Card
+            id="careerWall"
             style={{
               width: "100%",
               height: "22rem",
               textAlign: "left",
-              display:"none",
               backgroundColor: "transparent",
             }}
             border="danger"
