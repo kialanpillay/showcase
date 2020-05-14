@@ -155,7 +155,7 @@ function Projects() {
               </tr>
               <tr>
                 <td>
-                  <h3>iBrickset</h3>
+                  <h3>Brickset Go</h3>
                   <img
                     width="40"
                     src={brickset}
@@ -164,7 +164,7 @@ function Projects() {
                   ></img>
                 </td>
                 <td>
-                  React Native <br /> Javascript <br /> CSS
+                  React Native <br /> JavaScript <br /> CSS
                 </td>
                 <td>
                   A React Native IOS application that provides a mobile
@@ -185,7 +185,7 @@ function Projects() {
                   </h2>
                 </td>
                 <td>
-                  ReactJS <br /> Javascript <br /> HTML <br /> CSS
+                  ReactJS <br /> JavaScript <br /> HTML <br /> CSS
                 </td>
                 <td>
                   A website that showcases the academic career, publications and
@@ -224,7 +224,7 @@ function Projects() {
                   ></img>
                 </td>
                 <td>
-                  Gatsby <br /> Javascript <br /> HTML <br /> CSS{" "}
+                  Gatsby <br /> JavaScript <br /> HTML <br /> CSS{" "}
                 </td>
                 <td>
                   A personal static site that houses my digital desconstructed
