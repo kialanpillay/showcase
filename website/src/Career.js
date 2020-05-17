@@ -210,7 +210,7 @@ function Career() {
                   style={{
                     marginLeft: "0vh",
                     width: "75%",
-                    height: "50vh",
+                    height: "26rem",
                     textAlign: "left",
                     backgroundColor: "transparent",
                   }}
