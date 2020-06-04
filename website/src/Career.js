@@ -293,26 +293,10 @@ function Career() {
                           </h5>
                         </div>
                       </Col>
-                      <Col>
-                        <Row
-                          className="justify-content-md-center"
-                          style={{
-                            marginTop: "2vw",
-                          }}
-                        >
-                          <h5 className="stackSubtitle">TECHNOLOGY STACK</h5>
-                        </Row>
-                        <Row
-                          className="justify-content-md-center"
-                          style={{
-                            marginBottom: "3vw",
-                          }}
-                        >
-                        </Row>
-                      </Col>
                     </Row>
                     <div>
                       <h5 className="careerText">
+                        Content Loading...
                       </h5>
                     </div>
                   </Card.Body>
