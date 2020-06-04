@@ -78,7 +78,7 @@ function Projects() {
                 <h4>History</h4>
               </Card.Title>
               <div>
-                <h1 className="projectNumeric">6</h1>
+                <h1 className="projectNumeric">7</h1>
                 <h2>
                   <Badge pill variant="dark">
                     2020
@@ -155,6 +155,27 @@ function Projects() {
               </tr>
               <tr>
                 <td>
+                  <h3>Tenshi Calculator</h3>
+                  <h2>
+                    <Badge style={{ width: "26%" }} variant="dark">
+                      T
+                    </Badge>
+                  </h2>
+                </td>
+                <td>
+                  React Native <br /> JavaScript <br /> CSS
+                </td>
+                <td>
+                  A React Native application disguised as a calculator that provides quick and covert
+                  access to emergency assitance for potential victims of abuse.
+                </td>
+                <td>
+                  <Badge variant="primary">In QA</Badge>
+                </td>
+              </tr>
+              <tr></tr>
+              <tr>
+                <td>
                   <h3>Brickset Go</h3>
                   <img
                     width="40"
@@ -172,7 +193,7 @@ function Projects() {
                   www.brickset.com
                 </td>
                 <td>
-                  <Badge variant="primary">In Development</Badge>
+                  <Badge variant="primary">In QA</Badge>
                 </td>
               </tr>
               <tr>
