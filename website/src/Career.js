@@ -91,11 +91,11 @@ function Career() {
           }}
         >
           <Row>
-            <h1 className="careerNumeric">4</h1>
+            <h1 className="careerNumeric">5</h1>
             <h1 className="careerSubtitle">Internships</h1>
           </Row>
           <Row>
-            <h1 className="careerNumeric">2</h1>
+            <h1 className="careerNumeric">3</h1>
             <h1 className="careerSubtitle">Companies</h1>
           </Row>
         </Col>
@@ -107,11 +107,11 @@ function Career() {
           }}
         >
           <Row>
-            <h1 className="careerNumeric">4</h1>
+            <h1 className="careerNumeric">5</h1>
             <h1 className="careerSubtitle">Projects</h1>
           </Row>
           <Row>
-            <h1 className="careerNumeric">6</h1>
+            <h1 className="careerNumeric">7</h1>
             <h1 className="careerSubtitle">Months</h1>
           </Row>
         </Col>
@@ -261,6 +261,58 @@ function Career() {
                       <h5 className="careerText">
                         Configured Docker files and continuous integration and
                         deployment with CircleCI.
+                      </h5>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Row>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Row className="justify-content-md-center">
+                <Card
+                  style={{
+                    marginLeft: "0vh",
+                    width: "75%",
+                    height: "26rem",
+                    textAlign: "left",
+                    backgroundColor: "transparent",
+                  }}
+                  border="light"
+                >
+                  <Card.Body>
+                    <Card.Title>Info Card</Card.Title>
+                    <Row>
+                      <Col md="auto">
+                        <div>
+                          <h4 className="careerName">Nomanini</h4>
+                          <h5>Software Developer Intern</h5>
+                          <h5>
+                            <Badge pill variant="danger">
+                              2020
+                            </Badge>
+                          </h5>
+                        </div>
+                      </Col>
+                      <Col>
+                        <Row
+                          className="justify-content-md-center"
+                          style={{
+                            marginTop: "2vw",
+                          }}
+                        >
+                          <h5 className="stackSubtitle">TECHNOLOGY STACK</h5>
+                        </Row>
+                        <Row
+                          className="justify-content-md-center"
+                          style={{
+                            marginBottom: "3vw",
+                          }}
+                        >
+                        </Row>
+                      </Col>
+                    </Row>
+                    <div>
+                      <h5 className="careerText">
                       </h5>
                     </div>
                   </Card.Body>
