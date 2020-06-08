@@ -46,7 +46,7 @@ function Career() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="danger"
+            border="light"
           >
             <Card.Body>
               <Card.Title>

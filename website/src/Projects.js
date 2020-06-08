@@ -101,7 +101,7 @@ function Projects() {
           </Card>
         </Col>
         <Col md={10} xs={12}>
-          <Table responsive striped bordered style={{ color: "white" }}>
+          <Table responsive style={{ color: "white" }}>
             <thead style={{ fontSize: "1.6vw" }}>
               <tr>
                 <th>Project</th>
