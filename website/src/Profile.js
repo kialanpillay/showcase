@@ -22,7 +22,7 @@ function Profile() {
         </Col>
       </Row>
       <Row>
-        <Col md={5} xs={12} style={{ marginBottom: "2vh", marginRight: "4vw" }}>
+        <Col md={5} xs={12} style={{ marginBottom: "2vh", marginRight: "3vw" }}>
           <Card
             style={{
               width: "100%",
@@ -33,20 +33,20 @@ function Profile() {
             border="light"
           >
             <Card.Body>
-              <Card.Title>Bio Data</Card.Title>
+              <Card.Title>B I O</Card.Title>
               <div>
                 <h1>Kialan Pillay</h1>
               </div>
               <div>
                 <h1>
-                  5 March 2001{" "}
+                  5 March 2001 - {" "}
                   <Badge pill variant="primary">
                     19
                   </Badge>{" "}
                 </h1>
               </div>
               <div>
-                <h1>Durban, South Africa</h1>
+                <h1>Durban x Cape Town</h1>
               </div>
               <div>
                 <h1>Final Year Student</h1>
@@ -56,20 +56,23 @@ function Profile() {
         </Col>
         <Col md={3} xs={12} style={{ marginBottom: "2vh" }}>
           <Card
-            style={{ width: "100%", height: "18rem", textAlign: "left" }}
+            style={{ width: "100%", height: "20rem", textAlign: "left" }}
             bg="primary"
           >
             <Card.Body>
-              <Card.Title>University of Cape Town</Card.Title>
+              <Card.Title>A C A D E M I C S</Card.Title>
               <div>
-                <h3>Bachelor of Science</h3>
+                <h4>University of Cape Town</h4>
+              </div>
+              <div>
+                <h1>BSc</h1>
               </div>
               <div>
                 <h3>Computer Science &amp; Statistics</h3>
               </div>
               <div>
                 <h1>
-                  GPA:{" "}
+                  GPA - {" "}
                   <Badge pill variant="dark">
                     84.42
                   </Badge>
@@ -80,21 +83,21 @@ function Profile() {
         </Col>
         <Col md={3} xs={12} style={{ marginBottom: "2vh" }}>
           <Card
-            style={{ width: "100%", height: "18rem", textAlign: "left" }}
+            style={{ width: "100%", height: "20rem", textAlign: "left" }}
             bg="primary"
           >
             <Card.Body>
-              <Card.Title>Summary of Excellence</Card.Title>
+              <Card.Title>E X C E L L E N C E</Card.Title>
               <div>
                 <h2>10 Awards &amp; Honours</h2>
               </div>
               <div>
-                <h2>4 Scholarships</h2>
+                <h2>5 Scholarships</h2>
               </div>
               <Button
                 variant="dark"
-                size="md"
-                style={{ marginTop: "0vw" }}
+                size="lg"
+                style={{ marginTop: "2vw" }}
                 href="https://kialan.co.za"
               >
                 View More

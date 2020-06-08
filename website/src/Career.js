@@ -30,6 +30,7 @@ function Career() {
           </h1>
         </Col>
       </Row>
+      {/*
       <Row>
         <Col
           md={3}
@@ -115,7 +116,7 @@ function Career() {
             <h1 className="careerSubtitle">Months</h1>
           </Row>
         </Col>
-      </Row>
+        </Row>*/}
       <Row
         style={{
           marginBottom: "6vh",
@@ -127,7 +128,7 @@ function Career() {
         }}>
           <Carousel
             style={{
-              marginTop: "6vw",
+              marginTop: "2vw",
               width: "100%",
               height: "30rem"
             }}
@@ -145,14 +146,14 @@ function Career() {
                   border="light"
                 >
                   <Card.Body>
-                    <Card.Title>Info Card</Card.Title>
+                    <Card.Title>I N F O</Card.Title>
                     <Row>
                       <Col md="auto">
                         <div>
                           <h4 className="careerName">Amazon Web Services</h4>
                           <h5>Software Developement Engineer Intern</h5>
                           <h5>
-                            <Badge pill variant="danger">
+                            <Badge pill variant="primary">
                               2019 - 2020
                             </Badge>
                           </h5>
@@ -217,14 +218,14 @@ function Career() {
                   border="light"
                 >
                   <Card.Body>
-                    <Card.Title>Info Card</Card.Title>
+                    <Card.Title>I N F O</Card.Title>
                     <Row>
                       <Col md="auto">
                         <div>
                           <h4 className="careerName">Electrum Payments</h4>
                           <h5>Software Developer Intern</h5>
                           <h5>
-                            <Badge pill variant="danger">
+                            <Badge pill variant="primary">
                               2019
                             </Badge>
                           </h5>
@@ -280,14 +281,14 @@ function Career() {
                   border="light"
                 >
                   <Card.Body>
-                    <Card.Title>Info Card</Card.Title>
+                    <Card.Title>I N F O</Card.Title>
                     <Row>
                       <Col md="auto">
                         <div>
                           <h4 className="careerName">Nomanini</h4>
                           <h5>Software Developer Intern</h5>
                           <h5>
-                            <Badge pill variant="danger">
+                            <Badge pill variant="primary">
                               2020
                             </Badge>
                           </h5>

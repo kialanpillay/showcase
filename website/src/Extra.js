@@ -72,7 +72,7 @@ function Extra() {
                   <Form.Label>Message</Form.Label>
                   <Form.Control type="text" name="message" placeholder="Hi!" />
                 </Form.Group>
-                <Button variant="info" size="md" type="submit">
+                <Button variant="primary" size="md" type="submit">
                   Submit
                 </Button>
               </Form>
@@ -82,10 +82,10 @@ function Extra() {
         <Col md={4} xs={12}>
           <Card
             style={{ width: "100%", height: "22rem", textAlign: "left" }}
-            bg="info"
+            bg="primary"
           >
             <Card.Body>
-              <Card.Title>Social Media</Card.Title>
+              <Card.Title>S O C I A L S</Card.Title>
               <Card.Text>
                 <Row>
                   <Col>

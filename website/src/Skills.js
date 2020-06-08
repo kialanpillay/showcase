@@ -196,10 +196,10 @@ function Skills() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="warning"
+            bg="primary"
           >
             <Card.Body>
-              <Card.Title>Statistics</Card.Title>
+              <Card.Title>S N A P S H O T</Card.Title>
               <div>
                 <h1 className="numeric">6</h1>
                 <h3>Years of Experience</h3>

@@ -39,11 +39,11 @@ function Projects() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="success"
+            border="light"
           >
             <Card.Body>
               <Card.Title>
-                <h4>Code</h4>
+                <h4>C O D E</h4>
               </Card.Title>
               <div>
                 <a
@@ -53,13 +53,13 @@ function Projects() {
                 >
                   <i
                     className="fa fa-github"
-                    style={{ fontSize: "44px", color: "white" }}
+                    style={{ fontSize: "44px", color: "white", marginBottom: "6px" }}
                   ></i>
                 </a>
               </div>
               <div>
                 <h3>
-                  <Badge variant="success">GitHub</Badge>
+                  <Badge variant="primary">GitHub</Badge>
                 </h3>
               </div>
             </Card.Body>
@@ -71,11 +71,11 @@ function Projects() {
               height: "30rem",
               textAlign: "left",
             }}
-            bg="success"
+            bg="primary"
           >
             <Card.Body>
               <Card.Title>
-                <h4>History</h4>
+                <h4>S A G A</h4>
               </Card.Title>
               <div>
                 <h1 className="projectNumeric">7</h1>
@@ -102,12 +102,12 @@ function Projects() {
         </Col>
         <Col md={10} xs={12}>
           <Table responsive style={{ color: "white" }}>
-            <thead style={{ fontSize: "1.6vw" }}>
+            <thead style={{ fontSize: "1.2vw" }}>
               <tr>
-                <th>Project</th>
-                <th>Stack</th>
-                <th>Description</th>
-                <th>Status</th>
+                <th>P R O J E C T</th>
+                <th>S T A C K</th>
+                <th>D E S C R I P T I O N</th>
+                <th>S T A T U S</th>
               </tr>
             </thead>
             <tbody>
