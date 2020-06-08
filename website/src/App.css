@@ -21,7 +21,7 @@ html {
 }
 
 .body {
-  color: white
+  background-color: #282c34;
 }
 
 .title {
@@ -217,7 +217,7 @@ h4 {
 
   .numeric {
     display: inline;
-    color: #f6c444;
+    color: white;
     font-size: 8vh;
   }
 
