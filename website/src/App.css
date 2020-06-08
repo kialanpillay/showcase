@@ -22,6 +22,7 @@ html {
 
 .body {
   background-color: #282c34;
+  color: white;
 }
 
 .title {
@@ -96,10 +97,6 @@ h4 {
   font-size: 3vw;
 }
 
-.careerName {
-  font-size: 3vw;
-}
-
 .careerText {
   font-size: 1.3vw;
   text-align: justify;
@@ -108,12 +105,6 @@ h4 {
 .stackSubtitle {
   font-size: 1vw;
   letter-spacing: 0.2rem;
-}
-
-.projectNumeric {
-  display: inline;
-  color: white;
-  font-size: 5vw;
 }
 
 .contactHeading {
@@ -238,10 +229,6 @@ h4 {
     font-size: 5vh;
     text-align: center;
   }
-  
-  .careerName {
-    font-size: 3vw;
-  }
 
   .careerText {
     font-size: 2.4vw;
@@ -262,13 +249,7 @@ h4 {
   #stackReact {
     width: 7vh;
   }
-
-  .projectNumeric {
-    display: inline;
-    color: white;
-    font-size: 8vh;
-  }
-
+  
   .contactHeading {
     color: white;
     letter-spacing: 0.2rem;

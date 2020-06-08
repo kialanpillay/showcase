@@ -150,8 +150,8 @@ function Career() {
                     <Row>
                       <Col md="auto">
                         <div>
-                          <h4 className="careerName">Amazon Web Services</h4>
-                          <h5>Software Developement Engineer Intern</h5>
+                          <h1>Amazon Web Services</h1>
+                          <h5>Software Development Engineer Intern</h5>
                           <h5>
                             <Badge pill variant="primary">
                               2019 - 2020
@@ -222,7 +222,7 @@ function Career() {
                     <Row>
                       <Col md="auto">
                         <div>
-                          <h4 className="careerName">Electrum Payments</h4>
+                          <h1>Electrum Payments</h1>
                           <h5>Software Developer Intern</h5>
                           <h5>
                             <Badge pill variant="primary">
@@ -285,7 +285,7 @@ function Career() {
                     <Row>
                       <Col md="auto">
                         <div>
-                          <h4 className="careerName">Nomanini</h4>
+                          <h1>Nomanini</h1>
                           <h5>Software Developer Intern</h5>
                           <h5>
                             <Badge pill variant="primary">
