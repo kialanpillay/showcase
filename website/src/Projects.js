@@ -78,19 +78,19 @@ function Projects() {
                 <h4>S A G A</h4>
               </Card.Title>
               <div>
-                <h1 className="projectNumeric">7</h1>
+                <h1 className="numeric">7</h1>
                 <h2>
                   <Badge pill variant="dark">
                     2020
                   </Badge>
                 </h2>
-                <h1 className="projectNumeric">3</h1>
+                <h1 className="numeric">3</h1>
                 <h2>
                   <Badge pill variant="dark">
                     2019
                   </Badge>
                 </h2>
-                <h1 className="projectNumeric">1</h1>
+                <h1 className="numeric">1</h1>
                 <h2>
                   <Badge pill variant="dark">
                     2016
