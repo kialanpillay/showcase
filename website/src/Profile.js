@@ -46,7 +46,7 @@ function Profile() {
                 </h1>
               </div>
               <div>
-                <h1>Durban x Cape Town</h1>
+                <h1>Durban | Cape Town</h1>
               </div>
               <div>
                 <h1>Final Year Student</h1>
