@@ -77,7 +77,7 @@ function Profile() {
               <div>
                 <h1>
                   <Badge pill variant="light">
-                    GPA - 84.42
+                    84.42 GPA
                   </Badge>
                 </h1>
               </div>

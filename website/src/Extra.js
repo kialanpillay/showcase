@@ -29,7 +29,7 @@ function Extra() {
           xs={12}
           style={{
             marginBottom: "2vh",
-            marginRight: "4vh",
+            marginRight: "12vh",
           }}
         >
           <Card
@@ -95,7 +95,7 @@ function Extra() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4} xs={12}>
+        <Col md={3} xs={12}>
           <Card
             style={{
               width: "100%",
@@ -121,11 +121,6 @@ function Extra() {
                       ></i>
                     </a>
                   </Col>
-                  <Col>
-                    <h2 className="social">
-                      <Badge variant="dark">@kialanpillay</Badge>
-                    </h2>
-                  </Col>
                 </Row>
               </Card.Text>
               <Card.Text>
@@ -141,11 +136,6 @@ function Extra() {
                         style={{ fontSize: "48px", color: "white" }}
                       ></i>
                     </a>
-                  </Col>
-                  <Col>
-                    <h2 className="social">
-                      <Badge variant="dark">Kialan Pillay</Badge>
-                    </h2>
                   </Col>
                 </Row>
               </Card.Text>
@@ -163,11 +153,6 @@ function Extra() {
                       ></i>
                     </a>
                   </Col>
-                  <Col>
-                    <h2 className="social">
-                      <Badge variant="dark">Kialan Pillay</Badge>
-                    </h2>
-                  </Col>
                 </Row>
               </Card.Text>
               <Card.Text>
@@ -183,11 +168,6 @@ function Extra() {
                         style={{ fontSize: "48px", color: "white" }}
                       ></i>
                     </a>
-                  </Col>
-                  <Col>
-                    <h2 className="social">
-                      <Badge variant="dark">Kialan Pillay</Badge>
-                    </h2>
                   </Col>
                 </Row>
               </Card.Text>
