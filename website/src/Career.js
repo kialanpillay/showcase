@@ -5,8 +5,6 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import Badge from "react-bootstrap/Badge";
-import aws from "./assets/aws.png";
-import electrum from "./assets/electrum.png";
 import react from "./assets/react.png";
 import ts from "./assets/typescript.svg";
 import js from "./assets/javascript.svg";
