@@ -24,10 +24,14 @@ function Extra() {
         </Col>
       </Row>
       <Row>
-        <Col md={7} xs={12} style={{
-              marginBottom: "2vh",
-              marginRight: "4vh",
-            }}>
+        <Col
+          md={7}
+          xs={12}
+          style={{
+            marginBottom: "2vh",
+            marginRight: "4vh",
+          }}
+        >
           <Card
             style={{
               width: "100%",
@@ -53,18 +57,30 @@ function Extra() {
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridName">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" name="name" placeholder="Enter name" />
+                    <Form.Control
+                      type="text"
+                      name="name"
+                      placeholder="Enter name"
+                    />
                   </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridSurname">
                     <Form.Label>Surname</Form.Label>
-                    <Form.Control type="text" name="surname" placeholder="Enter surname" />
+                    <Form.Control
+                      type="text"
+                      name="surname"
+                      placeholder="Enter surname"
+                    />
                   </Form.Group>
                 </Form.Row>
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type="text" name="email"placeholder="Enter email" />
+                    <Form.Control
+                      type="text"
+                      name="email"
+                      placeholder="Enter email"
+                    />
                   </Form.Group>
                 </Form.Row>
 
@@ -72,7 +88,7 @@ function Extra() {
                   <Form.Label>Message</Form.Label>
                   <Form.Control type="text" name="message" placeholder="Hi!" />
                 </Form.Group>
-                <Button variant="primary" size="md" type="submit">
+                <Button variant="dark" size="lg" type="submit">
                   Submit
                 </Button>
               </Form>
@@ -81,8 +97,13 @@ function Extra() {
         </Col>
         <Col md={4} xs={12}>
           <Card
-            style={{ width: "100%", height: "22rem", textAlign: "left" }}
-            bg="primary"
+            style={{
+              width: "100%",
+              height: "22rem",
+              textAlign: "left",
+              backgroundColor: "transparent",
+            }}
+            border="light"
           >
             <Card.Body>
               <Card.Title>S O C I A L S</Card.Title>

@@ -196,7 +196,7 @@ function Skills() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            bg="primary"
+            border="light"
           >
             <Card.Body>
               <Card.Title>S N A P S H O T</Card.Title>

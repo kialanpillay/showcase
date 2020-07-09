@@ -39,9 +39,8 @@ function Profile() {
               </div>
               <div>
                 <h1>
-                  5 March 2001 - {" "}
-                  <Badge pill variant="primary">
-                    19
+                  <Badge pill variant="light">
+                    5 March 2001
                   </Badge>{" "}
                 </h1>
               </div>
@@ -56,8 +55,13 @@ function Profile() {
         </Col>
         <Col md={3} xs={12} style={{ marginBottom: "2vh" }}>
           <Card
-            style={{ width: "100%", height: "20rem", textAlign: "left" }}
-            bg="primary"
+            style={{
+              width: "100%",
+              height: "20rem",
+              textAlign: "left",
+              backgroundColor: "transparent",
+            }}
+            border="light"
           >
             <Card.Body>
               <Card.Title>A C A D E M I C S</Card.Title>
@@ -72,9 +76,8 @@ function Profile() {
               </div>
               <div>
                 <h1>
-                  GPA - {" "}
-                  <Badge pill variant="dark">
-                    84.42
+                  <Badge pill variant="light">
+                    GPA - 84.42
                   </Badge>
                 </h1>
               </div>
@@ -83,8 +86,13 @@ function Profile() {
         </Col>
         <Col md={3} xs={12} style={{ marginBottom: "2vh" }}>
           <Card
-            style={{ width: "100%", height: "20rem", textAlign: "left" }}
-            bg="primary"
+            style={{
+              width: "100%",
+              height: "20rem",
+              textAlign: "left",
+              backgroundColor: "transparent",
+            }}
+            border="light"
           >
             <Card.Body>
               <Card.Title>E X C E L L E N C E</Card.Title>
@@ -97,7 +105,7 @@ function Profile() {
               <Button
                 variant="dark"
                 size="lg"
-                style={{ marginTop: "2vw" }}
+                style={{ marginTop: "2.5vw" }}
                 href="https://kialan.co.za"
               >
                 View More

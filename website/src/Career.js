@@ -153,7 +153,7 @@ function Career() {
                           <h1>Amazon Web Services</h1>
                           <h5>Software Development Engineer Intern</h5>
                           <h5>
-                            <Badge pill variant="primary">
+                            <Badge pill variant="light">
                               2019 - 2020
                             </Badge>
                           </h5>
@@ -225,7 +225,7 @@ function Career() {
                           <h1>Electrum Payments</h1>
                           <h5>Software Developer Intern</h5>
                           <h5>
-                            <Badge pill variant="primary">
+                            <Badge pill variant="light">
                               2019
                             </Badge>
                           </h5>
@@ -288,7 +288,7 @@ function Career() {
                           <h1>Nomanini</h1>
                           <h5>Software Developer Intern</h5>
                           <h5>
-                            <Badge pill variant="primary">
+                            <Badge pill variant="light">
                               2020
                             </Badge>
                           </h5>

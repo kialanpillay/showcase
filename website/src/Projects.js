@@ -35,7 +35,7 @@ function Projects() {
           <Card
             style={{
               width: "100%",
-              height: "10rem",
+              height: "8rem",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
@@ -53,14 +53,13 @@ function Projects() {
                 >
                   <i
                     className="fa fa-github"
-                    style={{ fontSize: "44px", color: "white", marginBottom: "6px" }}
+                    style={{
+                      fontSize: "44px",
+                      color: "white",
+                      marginBottom: "6px",
+                    }}
                   ></i>
                 </a>
-              </div>
-              <div>
-                <h3>
-                  <Badge variant="primary">GitHub</Badge>
-                </h3>
               </div>
             </Card.Body>
           </Card>
@@ -70,8 +69,9 @@ function Projects() {
               marginTop: "4vw",
               height: "30rem",
               textAlign: "left",
+              backgroundColor: "transparent",
             }}
-            bg="primary"
+            border="light"
           >
             <Card.Body>
               <Card.Title>
@@ -80,19 +80,19 @@ function Projects() {
               <div>
                 <h1 className="numeric">7</h1>
                 <h2>
-                  <Badge pill variant="dark">
+                  <Badge pill variant="light">
                     2020
                   </Badge>
                 </h2>
                 <h1 className="numeric">3</h1>
                 <h2>
-                  <Badge pill variant="dark">
+                  <Badge pill variant="light">
                     2019
                   </Badge>
                 </h2>
                 <h1 className="numeric">1</h1>
                 <h2>
-                  <Badge pill variant="dark">
+                  <Badge pill variant="light">
                     2016
                   </Badge>
                 </h2>
@@ -134,27 +134,6 @@ function Projects() {
               </tr>
               <tr>
                 <td>
-                  <h3>ML.Beat</h3>
-                  <h2>
-                    <Badge style={{ width: "26%" }} variant="dark">
-                      B
-                    </Badge>
-                  </h2>
-                </td>
-                <td>
-                  ReactJS <br /> Python <br />
-                  Flask <br /> AWS{" "}
-                </td>
-                <td>
-                  A Hip-hop beat generation application using Recurrent Neutral
-                  Networks.
-                </td>
-                <td>
-                  <Badge variant="primary">In Development</Badge>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <h3>Tenshi Calculator</h3>
                   <h2>
                     <Badge style={{ width: "26%" }} variant="dark">
@@ -166,11 +145,12 @@ function Projects() {
                   React Native <br /> JavaScript <br /> CSS
                 </td>
                 <td>
-                  A React Native application disguised as a calculator that provides quick and covert
-                  access to emergency assitance for potential victims of abuse.
+                  A React Native application disguised as a calculator that
+                  provides quick and covert access to emergency assitance for
+                  potential victims of abuse.
                 </td>
                 <td>
-                  <Badge variant="primary">In QA</Badge>
+                  <Badge variant="warning">In QA</Badge>
                 </td>
               </tr>
               <tr></tr>
@@ -178,10 +158,10 @@ function Projects() {
                 <td>
                   <h3>Brickset Go</h3>
                   <img
-                    width="40"
+                    width="36"
                     src={brickset}
                     alt="brickset"
-                    style={{ borderRadius: "98%" }}
+                    style={{ borderRadius: "20%" }}
                   ></img>
                 </td>
                 <td>
@@ -190,10 +170,10 @@ function Projects() {
                 <td>
                   A React Native IOS application that provides a mobile
                   experience for the popular Lego-related website,
-                  www.brickset.com
+                  brickset.com
                 </td>
                 <td>
-                  <Badge variant="primary">In QA</Badge>
+                  <Badge variant="warning">In QA</Badge>
                 </td>
               </tr>
               <tr>
@@ -238,10 +218,10 @@ function Projects() {
                 <td>
                   <h3>Résumé</h3>
                   <img
-                    width="40"
+                    width="36"
                     src={resume}
                     alt="resume"
-                    style={{ borderRadius: "98%" }}
+                    style={{ borderRadius: "10%" }}
                   ></img>
                 </td>
                 <td>
@@ -307,7 +287,7 @@ function Projects() {
                   client organisation's members.
                 </td>
                 <td>
-                  <Badge variant="warning">Not Supported</Badge>
+                  <Badge variant="success">In Production</Badge>
                 </td>
               </tr>
             </tbody>
