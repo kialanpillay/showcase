@@ -66,7 +66,14 @@ function Career() {
                     <Row>
                       <Col md={8}>
                         <div>
-                          <h1>Amazon Web Services</h1>
+                          <a
+                            href="https://aws.amazon.com"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="link"
+                          >
+                            <h1>Amazon Web Services</h1>
+                          </a>
                           <h5>Software Development Engineer Intern</h5>
                           <h5>
                             <Badge pill variant="light">
@@ -150,7 +157,14 @@ function Career() {
                     <Row>
                       <Col md={8}>
                         <div>
-                          <h1>Electrum Payments</h1>
+                          <a
+                            href="https://electrum.co.za"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="link"
+                          >
+                            <h1>Electrum Payments</h1>
+                          </a>
                           <h5>Software Developer Intern</h5>
                           <h5>
                             <Badge pill variant="light">
@@ -216,7 +230,14 @@ function Career() {
                     <Row>
                       <Col md={8}>
                         <div>
-                          <h1>Nomanini</h1>
+                          <a
+                            href="https://nomanini.com"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="link"
+                          >
+                            <h1>Nomanini</h1>
+                          </a>
                           <h5>Software Developer Intern</h5>
                           <h5>
                             <Badge pill variant="light">
@@ -249,9 +270,17 @@ function Career() {
                     </Row>
                     <div>
                       <h5 className="careerText">
-                        Developed a Python package to extract and process data relevant
-                        to merchant health, to generate a set of credit scores
-                        using a heuristic algorithm. Conducted data analysis on the extracted information using several machine learning techniques, including clustering and neural networks, with Keras.
+                        Developed a Python package to extract and process data
+                        that measures merchant health, to generate a set of
+                        credit scores using a heuristic model.
+                      </h5>
+                    </div>
+                    <div>
+                      <h5 className="careerText">
+                        {" "}
+                        Conducted data analysis on the extracted features using
+                        several machine learning techniques, including
+                        clustering and neural networks, with Keras.
                       </h5>
                     </div>
                   </Card.Body>
