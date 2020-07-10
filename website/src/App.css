@@ -173,7 +173,7 @@ h4 {
   
   .sectionHeading {
     font-size: 12vw;
-    text-align: center;
+    text-align: left;
     letter-spacing: 1rem;
     margin-left: 1vh;
   }
@@ -187,10 +187,9 @@ h4 {
   .skillsHeading {
     color: white;
     letter-spacing: 0.2rem;
-    text-align: center;
+    text-align: left;
     margin-left: 1vh;
   }
-
 
   .stack {
     margin-top: 6vh;
@@ -222,18 +221,6 @@ h4 {
     display: inline;
     color: white;
     font-size: 8vh;
-  }
-
-  #aws {
-    width: 15rem;
-    height: 9rem;
-    margin-left: 4vh;
-  }
-
-  #electrum {
-    width: 15rem;
-    height: 6rem;
-    margin-left: 4vh;
   }
 
   .careerSubtitle {
@@ -270,9 +257,5 @@ h4 {
   
   .social {
     font-size: 8vw;
-  }
-
-  #careerWall {
-    display: none;
   }
 }

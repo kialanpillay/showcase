@@ -104,7 +104,7 @@ function Projects() {
         </Col>
         <Col md={10} xs={12}>
           <Table responsive style={{ color: "white" }}>
-            <thead style={{ fontSize: "1.2vw" }}>
+            <thead style={{ fontSize: "1vh" }}>
               <tr>
                 <th>P R O J E C T</th>
                 <th>S T A C K</th>
