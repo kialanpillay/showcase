@@ -82,11 +82,12 @@ function Career() {
                           </h5>
                         </div>
                       </Col>
-                      <Col>
+                      <Col md={4}>
                         <Row
                           className="justify-content-md-center"
                           style={{
                             marginTop: "1vw",
+                            marginBottom: "3vw",
                           }}
                         >
                           <img
@@ -173,11 +174,12 @@ function Career() {
                           </h5>
                         </div>
                       </Col>
-                      <Col>
+                      <Col md={4}>
                         <Row
                           className="justify-content-md-center"
                           style={{
                             marginTop: "1vw",
+                            marginBottom: "3vw",
                           }}
                         >
                           <img
@@ -246,11 +248,13 @@ function Career() {
                           </h5>
                         </div>
                       </Col>
-                      <Col>
+                      <Col md={4}>
                         <Row
                           className="justify-content-md-center"
                           style={{
+                            marginLeft: "0.5vw",
                             marginTop: "1vw",
+                            marginBottom: "3vw",
                           }}
                         >
                           <img
