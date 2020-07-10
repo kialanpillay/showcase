@@ -91,6 +91,14 @@ h4 {
   font-size: 1.4vw;
 }
 
+.link {
+  color: white
+}
+
+.link:hover {
+  color: white
+}
+
 .careerSubtitle {
   margin-left: 2vw;
   margin-top: 6vw;

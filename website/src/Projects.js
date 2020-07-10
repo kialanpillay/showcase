@@ -6,6 +6,8 @@ import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
 import Badge from "react-bootstrap/Badge";
 import brickset from "./assets/brickset.png";
+import senti from "./assets/senti.png";
+import tenshi from "./assets/tenshi.png";
 import resume from "./assets/resume.png";
 
 function Projects() {
@@ -122,7 +124,7 @@ function Projects() {
                 </td>
                 <td>
                   ReactJS <br /> Python <br />
-                  Flask <br /> AWS{" "}
+                  Flask <br /> DynamoDB{" "}
                 </td>
                 <td>
                   A Sentiment Analysis and Trend Prediction web application tool
@@ -134,15 +136,35 @@ function Projects() {
               </tr>
               <tr>
                 <td>
-                  <h3>Tenshi Calculator</h3>
-                  <h2>
-                    <Badge style={{ width: "26%" }} variant="dark">
-                      T
-                    </Badge>
-                  </h2>
+                  <h3>Senti </h3>
+                  <img
+                    width="32"
+                    src={senti}
+                    alt="senti"
+                    style={{ borderRadius: "20%" }}
+                  ></img>
                 </td>
                 <td>
-                  React Native <br /> JavaScript <br /> CSS
+                  ReactJS <br /> Python <br />
+                  Flask
+                </td>
+                <td>A blazingly fast sentiment analysis tool using NLTK.</td>
+                <td>
+                  <Badge variant="primary">In Development</Badge>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>Tenshi Calculator</h3>
+                  <img
+                    width="32"
+                    src={tenshi}
+                    alt="tenshi"
+                    style={{ borderRadius: "20%" }}
+                  ></img>
+                </td>
+                <td>
+                  React Native <br /> JavaScript
                 </td>
                 <td>
                   A React Native application disguised as a calculator that
@@ -165,12 +187,11 @@ function Projects() {
                   ></img>
                 </td>
                 <td>
-                  React Native <br /> JavaScript <br /> CSS
+                  React Native <br /> JavaScript
                 </td>
                 <td>
                   A React Native IOS application that provides a mobile
-                  experience for the popular Lego-related website,
-                  brickset.com
+                  experience for the popular Lego-related website, brickset.com
                 </td>
                 <td>
                   <Badge variant="warning">In QA</Badge>
