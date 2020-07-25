@@ -276,7 +276,7 @@ function Career() {
                       <h5 className="careerText">
                         Developed a Python package to extract and process data
                         that measures merchant health, to generate a set of
-                        credit scores using a heuristic model.
+                        credit scores and loan offers using a heuristic model.
                       </h5>
                     </div>
                     <div>

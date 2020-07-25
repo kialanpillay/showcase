@@ -136,7 +136,7 @@ function Projects() {
               </tr>
               <tr>
                 <td>
-                  <h3>Senti </h3>
+                  <h3>Senti Playground</h3>
                   <img
                     width="32"
                     src={senti}
@@ -145,12 +145,33 @@ function Projects() {
                   ></img>
                 </td>
                 <td>
-                  ReactJS <br /> Python <br />
-                  Flask
+                  ReactJS <br /> AWS Amplify
                 </td>
-                <td>A blazingly fast sentiment analysis tool using NLTK.</td>
+                <td>A sentiment analysis playground.</td>
                 <td>
-                  <Badge variant="primary">In Development</Badge>
+                  <Badge variant="success">In Production</Badge>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>Senti API</h3>
+                  <img
+                    width="32"
+                    src={senti}
+                    alt="senti"
+                    style={{ borderRadius: "20%" }}
+                  ></img>
+                </td>
+                <td>
+                  Python <br />
+                  Flask
+                  <br /> DynamoDB
+                </td>
+                <td>
+                  A blazingly fast sentiment analysis Python API using NLTK.
+                </td>
+                <td>
+                  <Badge variant="success">In Production</Badge>
                 </td>
               </tr>
               <tr>
