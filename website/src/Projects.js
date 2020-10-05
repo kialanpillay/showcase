@@ -9,6 +9,9 @@ import brickset from "./assets/brickset.png";
 import senti from "./assets/senti.png";
 import tenshi from "./assets/tenshi.png";
 import resume from "./assets/resume.png";
+import icemlab from "./assets/icemlab.png";
+import skybox from "./assets/skybox.png";
+import Icon from "@material-ui/core/Icon";
 
 function Projects() {
   return (
@@ -80,7 +83,7 @@ function Projects() {
                 <h4>S A G A</h4>
               </Card.Title>
               <div>
-                <h1 className="numeric">7</h1>
+                <h1 className="numeric">10</h1>
                 <h2>
                   <Badge pill variant="light">
                     2020
@@ -115,6 +118,72 @@ function Projects() {
             <tbody>
               <tr>
                 <td>
+                  <h3>Skybox</h3>
+                  <img
+                    width="36"
+                    src={skybox}
+                    alt="skybox"
+                    style={{ borderRadius: "20%" }}
+                  ></img>
+                </td>
+                <td>
+                  ReactJS <br /> JavaScript
+                </td>
+                <td>
+                  SKYBOX is an interactive web application that gives users the
+                  chance to immerse themselves in the exploration of the space
+                  beyond our atmosphere.
+                </td>
+                <td>
+                  <Badge variant="success">In Production</Badge>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>iCEMlab</h3>
+                  <img
+                    width="36"
+                    src={icemlab}
+                    alt="icemlab"
+                    style={{ borderRadius: "20%" }}
+                  ></img>
+                </td>
+                <td>
+                  ReactJS <br /> Python <br />
+                  Flask <br /> DynamoDB{" "}
+                </td>
+                <td>
+                  Virtual Chemistry Lab (iCEMlab) is a responsive web
+                  application that allows students to conduct a virtual
+                  experiment. <br /> Developed for the University of Cape Town
+                  Department of Chemistry.
+                </td>
+                <td>
+                  <Badge variant="success">In Production</Badge>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>Remote</h3>
+                  <Icon>games</Icon>
+                </td>
+                <td>
+                  Next.js <br /> JavaScript
+                </td>
+                <td>
+                  Remote is a tool to boost your productivity whilst working
+                  from home.{" "}
+                  <i>
+                    A hub for daily essential information. No searching. No
+                    scrolling.
+                  </i>
+                </td>
+                <td>
+                  <Badge variant="success">In Production</Badge>
+                </td>
+              </tr>
+              <tr>
+                <td>
                   <h3>Midas </h3>
                   <h2>
                     <Badge pill variant="light">
@@ -147,7 +216,7 @@ function Projects() {
                 <td>
                   ReactJS <br /> AWS Amplify
                 </td>
-                <td>A sentiment analysis playground.</td>
+                <td>A sentiment analysis playground powered by Senti API.</td>
                 <td>
                   <Badge variant="success">In Production</Badge>
                 </td>
