@@ -21,13 +21,12 @@ function Skills() {
     <div>
       <Row
         style={{
-          width: "100%",
           marginTop: "6vw",
           marginBottom: "2vh",
         }}
       >
-        <Col md="auto" xs="auto">
-          <h1 className="sectionHeading" id="skills">
+        <Col>
+          <h1 className="h1--section" id="skills">
             SKILLS
           </h1>
         </Col>
@@ -41,148 +40,139 @@ function Skills() {
             }}
           >
             <Carousel.Item>
-              <h1 className="skillsHeading">FRONTEND</h1>
+              <h1 className="h1--skills">FRONTEND</h1>
               <Row
                 className="justify-content-md-center"
                 style={{
                   marginTop: "6vh",
+                  height: "10vw",
                 }}
               >
-                <Col md="auto" xs="auto">
-                  <img
-                    className="leadingImage"
-                    width="100"
-                    src={js}
-                    alt="javascript"
-                  ></img>
-                </Col>
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={4}>
                   <img
                     className="image"
-                    id="react"
-                    width="150"
-                    src={react}
-                    alt="react"
+                    width="100"
+                    src={js}
+                    alt="JavaScript"
                   ></img>
                 </Col>
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={4}>
+                  <img
+                    className="image image--react"
+                    width="150"
+                    src={react}
+                    alt="ReactJS"
+                  ></img>
+                </Col>
+                <Col md="auto" xs={4}>
                   <img
                     className="image"
                     width="100"
                     src={ts}
-                    alt="typescript"
+                    alt="TypeScript"
                   ></img>
                 </Col>
               </Row>
               <Row
                 className="justify-content-md-center"
-                style={{
-                  marginTop: "6vh",
-                }}
               >
                 <Col md="auto">
-                  <h4 className="stack">JavaScript | ReactJS | TypeScript | HTML | CSS</h4>
+                  <h4 className="h4--skills">
+                    JavaScript | ReactJS | TypeScript | HTML | CSS
+                  </h4>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item>
-              <h1 className="skillsHeading">BACKEND</h1>
+              <h1 className="h1--skills">BACKEND</h1>
               <Row
                 className="justify-content-md-center"
                 style={{
                   marginTop: "6vh",
+                  height: "10vw",
                 }}
               >
-                <Col md="auto" xs="auto">
-                  <img
-                    className="leadingImage"
-                    id="java"
-                    width="70"
-                    src={java}
-                    alt="java"
-                  ></img>
-                </Col>
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={3}>
                   <img
                     className="image"
                     width="100"
                     src={golang}
-                    alt="golang"
+                    alt="Golang"
                   ></img>
                 </Col>
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={3}>
                   <img
                     className="image"
                     width="100"
                     src={python}
-                    alt="python"
+                    alt="Python"
                   ></img>
                 </Col>
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={3}>
                   <img
                     className="image"
                     id="sql"
                     width="120"
                     src={sql}
-                    alt="sql"
+                    alt="MySQL"
                   ></img>
+                </Col>
+                <Col md="auto" xs={3}>
+                  <img className="image" width="60" src={java} alt="java"></img>
                 </Col>
               </Row>
               <Row
                 className="justify-content-md-center"
-                style={{
-                  marginTop: "6vh",
-                }}
               >
                 <Col md="auto">
-                  <h4 className="stack">Java | Golang | Python | C++ | SQL</h4>
+                  <h4 className="h4--skills">Java | Golang | Python | C++ | SQL</h4>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item>
-              <h1 className="skillsHeading">MACHINE LEARNING</h1>
+              <h1 className="h1--skills">MACHINE LEARNING</h1>
               <Row
                 className="justify-content-md-center"
                 style={{
                   marginTop: "6vh",
+                  height: "10vw",
                 }}
               >
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={3}>
                   <img
-                    className="leadingImage"
+                    className="image"
                     width="90"
                     src={keras}
-                    alt="keras"
+                    alt="Keras"
                   ></img>
                 </Col>
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={3}>
                   <img
                     className="image"
                     width="90"
                     src={tensorflow}
-                    alt="tensorflow"
+                    alt="TensorFlow"
                   ></img>
                 </Col>
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={3}>
                   <img
                     className="image"
                     width="100"
                     src={matlab}
-                    alt="matlab"
+                    alt="MATLAB"
                   ></img>
                 </Col>
-                <Col md="auto" xs="auto">
+                <Col md="auto" xs={3}>
                   <img className="image" width="100" src={R} alt="R"></img>
                 </Col>
               </Row>
               <Row
                 className="justify-content-md-center"
-                style={{
-                  marginTop: "6vh",
-                }}
               >
                 <Col md="auto">
-                  <h4 className="stack">Python | Keras | Tensorflow | Matlab | R</h4>
+                  <h4 className="h4--skills">
+                    Python | Keras | Tensorflow | MATLAB | R
+                  </h4>
                 </Col>
               </Row>
             </Carousel.Item>
@@ -201,11 +191,11 @@ function Skills() {
             <Card.Body>
               <Card.Title>S N A P S H O T</Card.Title>
               <div>
-                <h1 className="numeric">6</h1>
+                <h1 className="h1--numeric">6</h1>
                 <h3>Years of Experience</h3>
               </div>
               <div>
-                <h1 className="numeric">12</h1>
+                <h1 className="h1--numeric">12</h1>
                 <h3>Languages</h3>
               </div>
             </Card.Body>

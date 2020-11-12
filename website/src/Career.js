@@ -18,13 +18,12 @@ function Career() {
     <div>
       <Row
         style={{
-          width: "100%",
           marginTop: "6vw",
           marginBottom: "2vh",
         }}
       >
-        <Col md="auto" xs="auto">
-          <h1 className="sectionHeading" id="career">
+        <Col>
+          <h1 className="h1--section" id="career">
             CAREER
           </h1>
         </Col>
@@ -36,11 +35,7 @@ function Career() {
       >
         <Col
           md={12}
-          sm={12}
-          style={{
-            marginLeft: "1vh",
-            marginRight: "1vh",
-          }}
+          xs={12}
         >
           <Carousel
             style={{
@@ -53,7 +48,6 @@ function Career() {
               <Row className="justify-content-md-center">
                 <Card
                   style={{
-                    marginLeft: "0vh",
                     width: "75%",
                     height: "26rem",
                     textAlign: "left",
@@ -91,51 +85,54 @@ function Career() {
                           }}
                         >
                           <img
-                            className="stackImage"
-                            id="stackReact"
+                            className="image--stack image--stack-react"
                             width="60"
                             src={react}
-                            alt="react"
+                            alt="ReactJS"
                           ></img>
                           <img
-                            className="stackImage"
+                            className="image--stack"
                             width="40"
                             src={ts}
-                            alt="typescript"
+                            alt="TypeScript"
                           ></img>
                           <img
-                            className="stackImage"
+                            className="image--stack"
                             width="60"
                             src={dynamodb}
-                            alt="dynamodb"
+                            alt="DynamoDB"
                           ></img>
                           <img
-                            className="stackImage"
+                            className="image--stack"
                             width="40"
                             src={golang}
-                            alt="golang"
+                            alt="Golang"
                           ></img>
                         </Row>
                       </Col>
                     </Row>
-                    <div>
-                      <h5 className="careerText">
+                    <div
+                      style={{
+                        marginTop: "1rem",
+                      }}
+                    >
+                      <p className="p--career">
                         Reduced operational load for the Managed Deployments
                         team by developing and implementing an information
                         linking and tracking system. Typescript and React was
                         used for the solution front-end, a Golang RESTful API
                         server backend, and a DynamoDB repository for
                         persistence.
-                      </h5>
+                      </p>
                     </div>
                     <div>
-                      <h5 className="careerText">
+                      <p className="p--career">
                         Discovered key insights concerning deployments, and
                         drafted a roadmap for future work by conducting an
                         investigation into using Machine Learning for deployment
                         failure predictive analytics, utilising Logistic
                         Regression, ANNs and Bayesian Networks in Python.
-                      </h5>
+                      </p>
                     </div>
                   </Card.Body>
                 </Card>
@@ -145,7 +142,6 @@ function Career() {
               <Row className="justify-content-md-center">
                 <Card
                   style={{
-                    marginLeft: "0vh",
                     width: "75%",
                     height: "26rem",
                     textAlign: "left",
@@ -183,33 +179,36 @@ function Career() {
                           }}
                         >
                           <img
-                            className="stackImage"
-                            id="stackReact"
+                            className="image--stack image--stack-react"
                             width="60"
                             src={react}
-                            alt="react"
+                            alt="ReactJS"
                           ></img>
                           <img
-                            className="stackImage"
+                            className="image--stack"
                             width="40"
                             src={js}
-                            alt="javascript"
+                            alt="JavaScript"
                           ></img>
                         </Row>
                       </Col>
                     </Row>
-                    <div>
-                      <h5 className="careerText">
+                    <div
+                      style={{
+                        marginTop: "1rem",
+                      }}
+                    >
+                      <p className="p--career">
                         Developed a MVP for a new API Documentation website for
                         Electrum's open-source services, built with Gatsby, a
                         React-based framework.
-                      </h5>
+                      </p>
                     </div>
                     <div>
-                      <h5 className="careerText">
+                      <p className="p--career">
                         Configured Docker files and continuous integration and
                         deployment with CircleCI.
-                      </h5>
+                      </p>
                     </div>
                   </Card.Body>
                 </Card>
@@ -219,7 +218,6 @@ function Career() {
               <Row className="justify-content-md-center">
                 <Card
                   style={{
-                    marginLeft: "0vh",
                     width: "75%",
                     height: "26rem",
                     textAlign: "left",
@@ -258,34 +256,38 @@ function Career() {
                           }}
                         >
                           <img
-                            className="stackImage"
+                            className="image--stack"
                             width="40"
                             src={python}
-                            alt="python"
+                            alt="Python"
                           ></img>
                           <img
-                            className="stackImage"
+                            className="image--stack"
                             width="60"
                             src={sql}
-                            alt="mysql"
+                            alt="MySQL"
                           ></img>
                         </Row>
                       </Col>
                     </Row>
-                    <div>
-                      <h5 className="careerText">
+                    <div
+                      style={{
+                        marginTop: "1rem",
+                      }}
+                    >
+                      <p className="p--career">
                         Developed a Python package to extract and process data
                         that measures merchant health, to generate a set of
                         credit scores and loan offers using a heuristic model.
-                      </h5>
+                      </p>
                     </div>
                     <div>
-                      <h5 className="careerText">
+                      <p className="p--career">
                         {" "}
                         Conducted data analysis on the extracted features using
                         several machine learning techniques, including
                         clustering and neural networks, with Keras.
-                      </h5>
+                      </p>
                     </div>
                   </Card.Body>
                 </Card>

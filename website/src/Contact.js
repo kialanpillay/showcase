@@ -6,19 +6,18 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-function Extra() {
+function Contact() {
   return (
     <div>
       <Row
         style={{
-          width: "100%",
           marginTop: "6vw",
-          marginBottom: "6vh",
+          marginBottom: "2vh",
         }}
       >
-        <Col md="auto" xs="auto">
-          <h1 className="sectionHeading" id="extra">
-            EXTRA
+        <Col>
+          <h1 className="h1--section" id="contact">
+            CONTACT
           </h1>
         </Col>
       </Row>
@@ -43,7 +42,7 @@ function Extra() {
             border="light"
           >
             <Card.Body>
-              <h1 className="contactHeading">CONTACT</h1>
+              <h1 className="h1--contact">FORM</h1>
               <Form
                 style={{
                   marginTop: "6vh",
@@ -107,68 +106,52 @@ function Extra() {
             <Card.Body>
               <Card.Title>S O C I A L S</Card.Title>
               <Card.Text>
-                <Row>
-                  <Col>
-                    <a
-                      href="https://instagram.com/kialanpillay"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <i
-                        className="fa fa-instagram"
-                        style={{ fontSize: "48px", color: "white" }}
-                      ></i>
-                    </a>
-                  </Col>
-                </Row>
+                <a
+                  href="https://instagram.com/kialanpillay"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-instagram"
+                    style={{ fontSize: "48px", color: "white" }}
+                  ></i>
+                </a>
               </Card.Text>
               <Card.Text>
-                <Row>
-                  <Col>
-                    <a
-                      href="https://linkedin.com/in/kialan-p-a63779140/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <i
-                        className="fa fa-linkedin"
-                        style={{ fontSize: "48px", color: "white" }}
-                      ></i>
-                    </a>
-                  </Col>
-                </Row>
+                <a
+                  href="https://linkedin.com/in/kialan-p-a63779140/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-linkedin"
+                    style={{ fontSize: "48px", color: "white" }}
+                  ></i>
+                </a>
               </Card.Text>
               <Card.Text>
-                <Row>
-                  <Col>
-                    <a
-                      href="https://facebook.com/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <i
-                        className="fa fa-facebook"
-                        style={{ fontSize: "48px", color: "white" }}
-                      ></i>
-                    </a>
-                  </Col>
-                </Row>
+                <a
+                  href="https://facebook.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-facebook"
+                    style={{ fontSize: "48px", color: "white" }}
+                  ></i>
+                </a>
               </Card.Text>
               <Card.Text>
-                <Row>
-                  <Col>
-                    <a
-                      href="https://flickr.com/photos/188051225@N03/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <i
-                        className="fa fa-flickr"
-                        style={{ fontSize: "48px", color: "white" }}
-                      ></i>
-                    </a>
-                  </Col>
-                </Row>
+                <a
+                  href="https://flickr.com/photos/188051225@N03/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-flickr"
+                    style={{ fontSize: "48px", color: "white" }}
+                  ></i>
+                </a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -178,4 +161,4 @@ function Extra() {
   );
 }
 
-export default Extra;
+export default Contact;

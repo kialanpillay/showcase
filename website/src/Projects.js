@@ -18,13 +18,12 @@ function Projects() {
     <div>
       <Row
         style={{
-          width: "100%",
           marginTop: "6vw",
           marginBottom: "2vh",
         }}
       >
-        <Col md="auto" xs="auto">
-          <h1 className="sectionHeading" id="project">
+        <Col>
+          <h1 className="h1--section" id="project">
             PROJECTS
           </h1>
         </Col>
@@ -47,9 +46,7 @@ function Projects() {
             border="light"
           >
             <Card.Body>
-              <Card.Title>
-                <h4>C O D E</h4>
-              </Card.Title>
+            <Card.Title>C O D E</Card.Title>
               <div>
                 <a
                   href="https://github.com/kialanpillay"
@@ -72,30 +69,27 @@ function Projects() {
             style={{
               width: "100%",
               marginTop: "4vw",
-              height: "30rem",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
             border="light"
           >
             <Card.Body>
-              <Card.Title>
-                <h4>S A G A</h4>
-              </Card.Title>
+              <Card.Title>S A G A</Card.Title>
               <div>
-                <h1 className="numeric">10</h1>
+                <h1 className="h1--numeric">10</h1>
                 <h2>
                   <Badge pill variant="light">
                     2020
                   </Badge>
                 </h2>
-                <h1 className="numeric">3</h1>
+                <h1 className="h1--numeric">3</h1>
                 <h2>
                   <Badge pill variant="light">
                     2019
                   </Badge>
                 </h2>
-                <h1 className="numeric">1</h1>
+                <h1 className="h1--numeric">1</h1>
                 <h2>
                   <Badge pill variant="light">
                     2016
@@ -107,7 +101,7 @@ function Projects() {
         </Col>
         <Col md={10} xs={12}>
           <Table responsive style={{ color: "white" }}>
-            <thead style={{ fontSize: "1vh" }}>
+            <thead>
               <tr>
                 <th>P R O J E C T</th>
                 <th>S T A C K</th>
@@ -291,7 +285,7 @@ function Projects() {
                 <td>
                   <h3>Academic Portfolio</h3>
                   <h2>
-                    <Badge style={{ width: "26%" }} variant="warning">
+                    <Badge style={{ width: "30%" }} variant="warning">
                       M
                     </Badge>
                   </h2>
@@ -311,7 +305,7 @@ function Projects() {
                 <td>
                   <h3>DataScaper</h3>
                   <h2>
-                    <Badge style={{ width: "26%" }} variant="danger">
+                    <Badge style={{ width: "30%" }} variant="danger">
                       D
                     </Badge>
                   </h2>
@@ -366,7 +360,7 @@ function Projects() {
                 <td>
                   <h3>FileShare</h3>
                   <h2>
-                    <Badge style={{ width: "26%" }} variant="info">
+                    <Badge style={{ width: "30%" }} variant="info">
                       F
                     </Badge>
                   </h2>
@@ -384,7 +378,7 @@ function Projects() {
                 <td>
                   <h3>APFKZN</h3>
                   <h2>
-                    <Badge style={{ width: "26%" }} variant="secondary">
+                    <Badge style={{ width: "30%" }} variant="secondary">
                       A
                     </Badge>
                   </h2>

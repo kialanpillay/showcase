@@ -10,13 +10,12 @@ function Profile() {
     <div>
       <Row
         style={{
-          width: "100%",
           marginTop: "6vw",
           marginBottom: "2vh",
         }}
       >
-        <Col md="auto" xs="auto">
-          <h1 className="sectionHeading" id="profile">
+        <Col>
+          <h1 className="h1--section" id="profile">
             PROFILE
           </h1>
         </Col>
@@ -26,7 +25,7 @@ function Profile() {
           <Card
             style={{
               width: "100%",
-              height: "20rem",
+              height: "100%",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
@@ -57,7 +56,7 @@ function Profile() {
           <Card
             style={{
               width: "100%",
-              height: "20rem",
+              height: "100%",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
@@ -66,7 +65,7 @@ function Profile() {
             <Card.Body>
               <Card.Title>A C A D E M I C S</Card.Title>
               <div>
-                <h4>University of Cape Town</h4>
+                <h3>University of Cape Town</h3>
               </div>
               <div>
                 <h1>BSc</h1>
@@ -88,7 +87,7 @@ function Profile() {
           <Card
             style={{
               width: "100%",
-              height: "20rem",
+              height: "100%",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
@@ -97,15 +96,15 @@ function Profile() {
             <Card.Body>
               <Card.Title>E X C E L L E N C E</Card.Title>
               <div>
-                <h2>10 Awards &amp; Honours</h2>
+                <h2>16 Awards &amp; Honours</h2>
               </div>
               <div>
-                <h2>5 Scholarships</h2>
+                <h2>6 Scholarships</h2>
               </div>
               <Button
                 variant="dark"
                 size="lg"
-                style={{ marginTop: "2.5vw" }}
+                style={{ marginTop: "4vw" }}
                 href="https://kialan.co.za"
               >
                 View More
@@ -113,9 +112,6 @@ function Profile() {
             </Card.Body>
           </Card>
         </Col>
-      </Row>
-      <Row>
-        <Col></Col>
       </Row>
     </div>
   );

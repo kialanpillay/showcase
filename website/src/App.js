@@ -12,7 +12,7 @@ import Profile from "./Profile.js";
 import Skills from "./Skills.js";
 import Career from "./Career.js";
 import Projects from "./Projects.js";
-import Extra from "./Extra.js";
+import Contact from "./Contact.js";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -27,12 +27,12 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Navbar id="nav" variant="dark" bg="dark">
+        <Navbar variant="dark" bg="dark">
           <Navbar.Brand href="/">
-            <p id="logo"> &#60;KIALAN/&#62;</p>
+            <p className="p--brand"> &#60;KIALAN/&#62;</p>
           </Navbar.Brand>
         </Navbar>
-        <div className="body">
+        <div>
           <Container style={{ marginTop: "4rem", marginBottom: "4rem" }}>
             <Row
               style={{
@@ -42,8 +42,8 @@ export default class App extends React.Component {
               }}
             >
               <Col md="auto">
-                <h1 className="title">Hi, I'm Kialan</h1>
-                <h1 className="subtitle">Welcome to my showcase.</h1>
+                <h1 className="h1--title">Hi, I'm Kialan</h1>
+                <h1 className="h1--subtitle">Welcome to my showcase.</h1>
               </Col>
               <Col md="auto">
                 <div className="vl"></div>
@@ -63,7 +63,7 @@ export default class App extends React.Component {
                   variant="primary"
                   onClick={() => this.scroll("#profile")}
                 >
-                  <h3 className="buttonText">PROFILE</h3>
+                  <h3 className="btn__text">PROFILE</h3>
                 </Button>
               </Col>
               <Col md="auto" style={{marginBottom: "2vh" }}>
@@ -72,7 +72,7 @@ export default class App extends React.Component {
                   variant="warning"
                   onClick={() => this.scroll("#skills")}
                 >
-                  <h3 className="buttonText">SKILLS</h3>
+                  <h3 className="btn__text">SKILLS</h3>
                 </Button>
               </Col>
               <Col md="auto" style={{marginBottom: "2vh" }}>
@@ -81,7 +81,7 @@ export default class App extends React.Component {
                   variant="danger"
                   onClick={() => this.scroll("#career")}
                 >
-                  <h3 className="buttonText">CAREER</h3>
+                  <h3 className="btn__text">CAREER</h3>
                 </Button>
               </Col>
               <Col md="auto" style={{marginBottom: "2vh" }}>
@@ -90,16 +90,16 @@ export default class App extends React.Component {
                   variant="success"
                   onClick={() => this.scroll("#project")}
                 >
-                  <h3 className="buttonText">PROJECT</h3>
+                  <h3 className="btn__text">PROJECTS</h3>
                 </Button>
               </Col>
               <Col md="auto" style={{marginBottom: "2vh" }}>
                 <Button
                   style={{ width: "10rem", height: "10rem"}}
                   variant="info"
-                  onClick={() => this.scroll("#extra")}
+                  onClick={() => this.scroll("#contact")}
                 >
-                  <h3 className="buttonText">EXTRA</h3>
+                  <h3 className="btn__text">CONTACT</h3>
                 </Button>
               </Col>
             </Row>
@@ -127,7 +127,7 @@ export default class App extends React.Component {
             <hr className="sep"/>
             <Projects />
             <hr className="sep"/>
-            <Extra />
+            <Contact />
           </Container>
         </div>
       </div>

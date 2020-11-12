@@ -1,78 +1,12 @@
 .App {
   text-align: center;
+  color: white;
   background-color: #282c34;
   min-height: 100vh;
 }
 
 html {
   background-color: #282c34;
-}
-
-#nav {
-  background-color: white;
-  width: 100%;
-}
-
-#logo {
-  color: white;
-  font-size: 1.5rem;
-  display: inline;
-  letter-spacing: 0.3rem;
-}
-
-.body {
-  background-color: #282c34;
-  color: white;
-}
-
-.title {
-  font-size: 7vw;
-  margin-top: 2rem;
-  text-align: left;
-}
-
-.subtitle {
-  text-align: left;
-  font-size: 3vw;
-  margin-bottom: 2rem;
-}
-
-.vl {
-  border-left: 6px solid white;
-  height: 100%;
-  position: relative;
-}
-
-.buttonText {
-  font-size: 1.5vw;
-  text-align: center;
-  letter-spacing: 0.15rem;
-}
-
-.sectionHeading {
-  font-size: 6vw;
-  text-align: center;
-  display: inline-block;
-  letter-spacing: 1rem;
-}
-
-.skillsHeading {
-  color: white;
-  letter-spacing: 0.6rem;
-  text-align: center;
-}
-
-.numeric {
-  display: inline;
-  color: white;
-  font-size: 5vw;
-}
-
-/*rgb(40,167,69); color: #f6c444;*/
-.sep {
-  margin-top: 10vh;
-  height: 4px;
-  background-color: rgb(52,62,65);
 }
 
 h1 {
@@ -84,60 +18,101 @@ h2 {
 }
 
 h3 {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
 }
 
 h4 {
-  font-size: 1.4vw;
+  font-size: 1.5vw;
 }
 
-.link {
-  color: white
-}
-
-.link:hover {
-  color: white
-}
-
-.careerSubtitle {
-  margin-left: 2vw;
-  margin-top: 6vw;
-  font-size: 3vw;
-}
-
-.careerText {
-  font-size: 1.3vw;
-  text-align: justify;
-}
-
-.stackSubtitle {
+th {
   font-size: 1vw;
+}
+
+.link,
+.link:hover {
+  color: white;
+}
+
+.p--brand {
+  display: inline;
+  color: white;
+  font-size: 1.5rem;
   letter-spacing: 0.2rem;
 }
 
-.contactHeading {
+.h1--title {
+  text-align: left;
+  font-size: 8vw;
+  margin-top: 2rem;
+}
+
+.h1--subtitle {
+  text-align: left;
+  font-size: 2.5vw;
+  margin-bottom: 2rem;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 100%;
+  position: relative;
+}
+
+.btn__text {
+  text-align: center;
+  font-size: 1.5vw;
+  letter-spacing: 0.15rem;
+}
+
+.h1--section {
+  font-size: 6vw;
+  text-align: left;
+  letter-spacing: 1rem;
+}
+
+.h1--skills {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.6rem;
+}
+
+.h1--numeric {
+  display: inline;
+  color: white;
+  font-size: 5vw;
+}
+
+.sep {
+  background-color: rgb(52, 62, 65);
+  height: 4px;
+  margin-top: 10vh;
+}
+
+.p--career {
+  text-align: justify;
+  font-size: 1.2vw;
+}
+
+.h1--contact {
   color: white;
   letter-spacing: 0.6rem;
   text-align: left;
 }
 
-@media only screen and (max-width: 600px) and (max-height: 900px){
-  .body {
-    color: white
-  }
-
+@media only screen and (max-width: 600px) and (max-height: 900px) {
   h1 {
     font-size: 7vw;
   }
-  
+
   h2 {
     font-size: 6vw;
   }
-  
+
   h3 {
     font-size: 5vw;
   }
-  
+
   h4 {
     font-size: 4vw;
   }
@@ -145,16 +120,20 @@ h4 {
   h5 {
     font-size: 3vw;
   }
-  
-  .title {
-    font-size: 10vw;
+
+  th {
+    font-size: 2.5vw;
+  }
+
+  .h1--title {
+    font-size: 14vw;
     margin-top: 2rem;
     text-align: center;
   }
-  
-  .subtitle {
+
+  .h1--subtitle {
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     margin-bottom: 2rem;
   }
 
@@ -164,98 +143,67 @@ h4 {
     position: relative;
     display: none;
   }
-  
-  .buttonText {
-    font-size: 5vw;
-    text-align: center;
-    letter-spacing: 0.15rem;
-  }
-  
-  .sectionHeading {
-    font-size: 12vw;
-    text-align: left;
-    letter-spacing: 1rem;
-    margin-left: 1vh;
-  }
 
   .sep {
     margin-top: 4vh;
     height: 4px;
-    background-color: rgb(52,62,65);
+    background-color: rgb(52, 62, 65);
   }
 
-  .skillsHeading {
+  .btn__text {
+    font-size: 5vw;
+    text-align: center;
+    letter-spacing: 0.15rem;
+  }
+
+  .h1--section {
+    font-size: 10vw;
+    text-align: center;
+    letter-spacing: 1rem;
+  }
+
+  .h1--skills {
     color: white;
     letter-spacing: 0.2rem;
-    text-align: left;
-    margin-left: 1vh;
+    text-align: center;
   }
 
-  .stack {
-    margin-top: 6vh;
+  .h4--skills {
+    margin-top: 10vh;
     font-size: 4vw;
   }
-  
+
   .image {
     width: 6vh;
   }
 
-  .leadingImage {
-    margin-left: 3vh;
+  .image--react {
+    width: 10vh;
+  }
+
+  .h1--numeric {
+    display: inline;
+    color: white;
+    font-size: 6vh;
+  }
+
+  .p--career {
+    font-size: 2vw;
+    text-align: justify;
+  }
+
+  .image--stack {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .image--stack-react {
     width: 6vh;
   }
 
-  #react {
-    width: 9vh;
-  }
-
-  #java {
-    width: 5vh;
-  }
-
-  #sql {
-    width: 9vh;
-  }
-
-  .numeric {
-    display: inline;
+  .h1--contact {
     color: white;
-    font-size: 8vh;
-  }
-
-  .careerSubtitle {
-    margin-top: 4vh;
-    font-size: 5vh;
-    text-align: center;
-  }
-
-  .careerText {
-    font-size: 2.4vw;
-    text-align: justify;
-  }
-  
-  .stackSubtitle {
-    margin-left: 2vh;
-    font-size: 1vh;
-    letter-spacing: 0.2rem;
-  }
-
-  .stackImage {
-    width: 4.5vh;
-    height: 4.5vh;
-  }
-
-  #stackReact {
-    width: 7vh;
-  }
-  
-  .contactHeading {
-    color: white;
-    letter-spacing: 0.2rem;
     text-align: left;
-  }
-  
-  .social {
-    font-size: 8vw;
+    letter-spacing: 0.2rem;
   }
 }
