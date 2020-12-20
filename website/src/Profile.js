@@ -47,7 +47,7 @@ function Profile() {
                 <h1>Durban | Cape Town</h1>
               </div>
               <div>
-                <h1>Final Year Student</h1>
+                <h1>Software Engineer</h1>
               </div>
             </Card.Body>
           </Card>
@@ -76,7 +76,7 @@ function Profile() {
               <div>
                 <h1>
                   <Badge pill variant="light">
-                    86.22 GPA
+                    86.5 GPA
                   </Badge>
                 </h1>
               </div>
