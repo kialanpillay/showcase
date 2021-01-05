@@ -96,10 +96,10 @@ function Profile() {
             <Card.Body>
               <Card.Title>E X C E L L E N C E</Card.Title>
               <div>
-                <h2>16 Awards &amp; Honours</h2>
+                <h2>15 Awards &amp; Honours</h2>
               </div>
               <div>
-                <h2>6 Scholarships</h2>
+                <h2>5 Scholarships</h2>
               </div>
               <Button
                 variant="dark"

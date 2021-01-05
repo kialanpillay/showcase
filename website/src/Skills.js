@@ -171,7 +171,7 @@ function Skills() {
               >
                 <Col md="auto">
                   <h4 className="h4--skills">
-                    Python | Keras | Tensorflow | MATLAB | R
+                    Keras | Tensorflow | MATLAB | R
                   </h4>
                 </Col>
               </Row>

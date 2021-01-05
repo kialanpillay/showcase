@@ -71,6 +71,80 @@ function Career() {
                           <h5>Software Development Engineer Intern</h5>
                           <h5>
                             <Badge pill variant="light">
+                              2020 - 2021
+                            </Badge>
+                          </h5>
+                        </div>
+                      </Col>
+                      <Col md={4}>
+                        <Row
+                          className="justify-content-md-center"
+                          style={{
+                            marginTop: "1vw",
+                            marginBottom: "3vw",
+                          }}
+                        >
+                          <img
+                            className="image--stack image--stack-react"
+                            width="60"
+                            src={react}
+                            alt="ReactJS"
+                          ></img>
+                          <img
+                            className="image--stack"
+                            width="40"
+                            src={ts}
+                            alt="TypeScript"
+                          ></img>
+                          <img
+                            className="image--stack"
+                            width="40"
+                            src={golang}
+                            alt="Golang"
+                          ></img>
+                        </Row>
+                      </Col>
+                    </Row>
+                    <div
+                      style={{
+                        marginTop: "1rem",
+                      }}
+                    >
+                      <p className="p--career">
+                        Content loading...
+                      </p>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Row>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Row className="justify-content-md-center">
+                <Card
+                  style={{
+                    width: "75%",
+                    height: "26rem",
+                    textAlign: "left",
+                    backgroundColor: "transparent",
+                  }}
+                  border="light"
+                >
+                  <Card.Body>
+                    <Card.Title>I N F O</Card.Title>
+                    <Row>
+                      <Col md={8}>
+                        <div>
+                          <a
+                            href="https://aws.amazon.com"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="link"
+                          >
+                            <h1>Amazon Web Services</h1>
+                          </a>
+                          <h5>Software Development Engineer Intern</h5>
+                          <h5>
+                            <Badge pill variant="light">
                               2019 - 2020
                             </Badge>
                           </h5>
@@ -119,7 +193,7 @@ function Career() {
                       <p className="p--career">
                         Reduced operational load for the Managed Deployments
                         team by developing and implementing an information
-                        linking and tracking system. Typescript and React was
+                        linking and tracking system. TypeScript and ReactJS was
                         used for the solution front-end, a Golang RESTful API
                         server backend, and a DynamoDB repository for
                         persistence.
