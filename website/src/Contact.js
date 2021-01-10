@@ -94,6 +94,7 @@ function Contact(props) {
             style={{
               width: "100%",
               height: "16rem",
+              marginBottom: "2rem",
               textAlign: "left",
               backgroundColor: "transparent",
             }}

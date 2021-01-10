@@ -75,7 +75,7 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mode: false,
+      mode: true,
     };
     this.scroll = this.scroll.bind(this);
   }
@@ -119,7 +119,7 @@ export default class App extends React.Component {
           </Navbar.Collapse>
         </Navbar>
         <div>
-          <Container style={{ marginTop: "4rem", marginBottom: "4rem" }}>
+          <Container style={{ marginTop: "4rem" }}>
             <Row
               style={{
                 alignItems: "left",
