@@ -1,19 +1,11 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import Badge from "react-bootstrap/Badge";
-import react from "./assets/react.png";
-import ts from "./assets/typescript.svg";
-import js from "./assets/javascript.svg";
-import python from "./assets/python.png";
-import golang from "./assets/golang.png";
-import dynamodb from "./assets/dynamodb.png";
-import sql from "./assets/mysql.svg";
 
-function Career() {
+function Career(props) {
   return (
     <div>
       <Row
@@ -33,10 +25,7 @@ function Career() {
           marginBottom: "6vh",
         }}
       >
-        <Col
-          md={12}
-          xs={12}
-        >
+        <Col md={12} xs={12}>
           <Carousel
             style={{
               marginTop: "2vw",
@@ -53,7 +42,7 @@ function Career() {
                     textAlign: "left",
                     backgroundColor: "transparent",
                   }}
-                  border="light"
+                  border={props.mode ? "light" : "dark"}
                 >
                   <Card.Body>
                     <Card.Title>I N F O</Card.Title>
@@ -65,44 +54,17 @@ function Career() {
                             rel="noopener noreferrer"
                             target="_blank"
                             className="link"
+                            style={{ color: props.mode ? "white" : "#282c34" }}
                           >
                             <h1>Amazon Web Services</h1>
                           </a>
                           <h5>Software Development Engineer Intern</h5>
                           <h5>
-                            <Badge pill variant="light">
+                            <Badge pill variant={props.mode ? "light" : "dark"}>
                               2020 - 2021
                             </Badge>
                           </h5>
                         </div>
-                      </Col>
-                      <Col md={4}>
-                        <Row
-                          className="justify-content-md-center"
-                          style={{
-                            marginTop: "1vw",
-                            marginBottom: "3vw",
-                          }}
-                        >
-                          <img
-                            className="image--stack image--stack-react"
-                            width="60"
-                            src={react}
-                            alt="ReactJS"
-                          ></img>
-                          <img
-                            className="image--stack"
-                            width="40"
-                            src={ts}
-                            alt="TypeScript"
-                          ></img>
-                          <img
-                            className="image--stack"
-                            width="40"
-                            src={golang}
-                            alt="Golang"
-                          ></img>
-                        </Row>
                       </Col>
                     </Row>
                     <div
@@ -110,9 +72,7 @@ function Career() {
                         marginTop: "1rem",
                       }}
                     >
-                      <p className="p--career">
-                        Content loading...
-                      </p>
+                      <p className="p--career">Content loading...</p>
                     </div>
                   </Card.Body>
                 </Card>
@@ -127,7 +87,7 @@ function Career() {
                     textAlign: "left",
                     backgroundColor: "transparent",
                   }}
-                  border="light"
+                  border={props.mode ? "light" : "dark"}
                 >
                   <Card.Body>
                     <Card.Title>I N F O</Card.Title>
@@ -139,50 +99,17 @@ function Career() {
                             rel="noopener noreferrer"
                             target="_blank"
                             className="link"
+                            style={{ color: props.mode ? "white" : "#282c34" }}
                           >
                             <h1>Amazon Web Services</h1>
                           </a>
                           <h5>Software Development Engineer Intern</h5>
                           <h5>
-                            <Badge pill variant="light">
+                            <Badge pill variant={props.mode ? "light" : "dark"}>
                               2019 - 2020
                             </Badge>
                           </h5>
                         </div>
-                      </Col>
-                      <Col md={4}>
-                        <Row
-                          className="justify-content-md-center"
-                          style={{
-                            marginTop: "1vw",
-                            marginBottom: "3vw",
-                          }}
-                        >
-                          <img
-                            className="image--stack image--stack-react"
-                            width="60"
-                            src={react}
-                            alt="ReactJS"
-                          ></img>
-                          <img
-                            className="image--stack"
-                            width="40"
-                            src={ts}
-                            alt="TypeScript"
-                          ></img>
-                          <img
-                            className="image--stack"
-                            width="60"
-                            src={dynamodb}
-                            alt="DynamoDB"
-                          ></img>
-                          <img
-                            className="image--stack"
-                            width="40"
-                            src={golang}
-                            alt="Golang"
-                          ></img>
-                        </Row>
                       </Col>
                     </Row>
                     <div
@@ -221,7 +148,7 @@ function Career() {
                     textAlign: "left",
                     backgroundColor: "transparent",
                   }}
-                  border="light"
+                  border={props.mode ? "light" : "dark"}
                 >
                   <Card.Body>
                     <Card.Title>I N F O</Card.Title>
@@ -233,38 +160,17 @@ function Career() {
                             rel="noopener noreferrer"
                             target="_blank"
                             className="link"
+                            style={{ color: props.mode ? "white" : "#282c34" }}
                           >
                             <h1>Electrum Payments</h1>
                           </a>
                           <h5>Software Developer Intern</h5>
                           <h5>
-                            <Badge pill variant="light">
+                            <Badge pill variant={props.mode ? "light" : "dark"}>
                               2019
                             </Badge>
                           </h5>
                         </div>
-                      </Col>
-                      <Col md={4}>
-                        <Row
-                          className="justify-content-md-center"
-                          style={{
-                            marginTop: "1vw",
-                            marginBottom: "3vw",
-                          }}
-                        >
-                          <img
-                            className="image--stack image--stack-react"
-                            width="60"
-                            src={react}
-                            alt="ReactJS"
-                          ></img>
-                          <img
-                            className="image--stack"
-                            width="40"
-                            src={js}
-                            alt="JavaScript"
-                          ></img>
-                        </Row>
                       </Col>
                     </Row>
                     <div
@@ -297,7 +203,7 @@ function Career() {
                     textAlign: "left",
                     backgroundColor: "transparent",
                   }}
-                  border="light"
+                  border={props.mode ? "light" : "dark"}
                 >
                   <Card.Body>
                     <Card.Title>I N F O</Card.Title>
@@ -309,39 +215,17 @@ function Career() {
                             rel="noopener noreferrer"
                             target="_blank"
                             className="link"
+                            style={{ color: props.mode ? "white" : "#282c34" }}
                           >
                             <h1>Nomanini</h1>
                           </a>
                           <h5>Software Developer Intern</h5>
                           <h5>
-                            <Badge pill variant="light">
+                            <Badge pill variant={props.mode ? "light" : "dark"}>
                               2020
                             </Badge>
                           </h5>
                         </div>
-                      </Col>
-                      <Col md={4}>
-                        <Row
-                          className="justify-content-md-center"
-                          style={{
-                            marginLeft: "0.5vw",
-                            marginTop: "1vw",
-                            marginBottom: "3vw",
-                          }}
-                        >
-                          <img
-                            className="image--stack"
-                            width="40"
-                            src={python}
-                            alt="Python"
-                          ></img>
-                          <img
-                            className="image--stack"
-                            width="60"
-                            src={sql}
-                            alt="MySQL"
-                          ></img>
-                        </Row>
                       </Col>
                     </Row>
                     <div

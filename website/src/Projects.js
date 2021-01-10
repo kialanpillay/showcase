@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
@@ -11,9 +10,11 @@ import tenshi from "./assets/tenshi.png";
 import resume from "./assets/resume.png";
 import icemlab from "./assets/icemlab.png";
 import skybox from "./assets/skybox.png";
+import syndikit from "./assets/syndikit.png";
+import compli from "./assets/compli.png";
 import Icon from "@material-ui/core/Icon";
 
-function Projects() {
+function Projects(props) {
   return (
     <div>
       <Row
@@ -43,10 +44,10 @@ function Projects() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border={props.mode ? "light" : "dark"}
           >
             <Card.Body>
-            <Card.Title>C O D E</Card.Title>
+              <Card.Title>C O D E</Card.Title>
               <div>
                 <a
                   href="https://github.com/kialanpillay"
@@ -57,7 +58,7 @@ function Projects() {
                     className="fa fa-github"
                     style={{
                       fontSize: "44px",
-                      color: "white",
+                      color: props.mode ? "white" : "black",
                       marginBottom: "6px",
                     }}
                   ></i>
@@ -72,27 +73,27 @@ function Projects() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border={props.mode ? "light" : "dark"}
           >
             <Card.Body>
               <Card.Title>S A G A</Card.Title>
               <div>
-                <h1 className="h1--numeric">10</h1>
+                <h1 className="h1--numeric">1+</h1>
+                <h2>
+                  <Badge pill variant="light">
+                    2021
+                  </Badge>
+                </h2>
+                <h1 className="h1--numeric">12</h1>
                 <h2>
                   <Badge pill variant="light">
                     2020
                   </Badge>
                 </h2>
-                <h1 className="h1--numeric">3</h1>
+                <h1 className="h1--numeric">4</h1>
                 <h2>
                   <Badge pill variant="light">
                     2019
-                  </Badge>
-                </h2>
-                <h1 className="h1--numeric">1</h1>
-                <h2>
-                  <Badge pill variant="light">
-                    2016
                   </Badge>
                 </h2>
               </div>
@@ -100,16 +101,32 @@ function Projects() {
           </Card>
         </Col>
         <Col md={10} xs={12}>
-          <Table responsive style={{ color: "white" }}>
+          <Table responsive style={{ color: props.mode ? "white" : "black" }}>
             <thead>
               <tr>
                 <th>P R O J E C T</th>
-                <th>S T A C K</th>
                 <th>D E S C R I P T I O N</th>
-                <th>S T A T U S</th>
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td>
+                  <h3>Compli</h3>
+                  <img
+                    width="36"
+                    src={compli}
+                    alt="compli"
+                    style={{
+                      borderRadius: "20%",
+                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
+                    }}
+                  ></img>
+                </td>
+                <td>
+                  Compli is an employee health screening and management tool,
+                  with a real-time metrics dashboard supercharged by AI.
+                </td>
+              </tr>
               <tr>
                 <td>
                   <h3>Skybox</h3>
@@ -117,19 +134,16 @@ function Projects() {
                     width="36"
                     src={skybox}
                     alt="skybox"
-                    style={{ borderRadius: "20%" }}
+                    style={{
+                      borderRadius: "20%",
+                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
+                    }}
                   ></img>
-                </td>
-                <td>
-                  ReactJS <br /> JavaScript
                 </td>
                 <td>
                   SKYBOX is an interactive web application that gives users the
                   chance to immerse themselves in the exploration of the space
                   beyond our atmosphere.
-                </td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
                 </td>
               </tr>
               <tr>
@@ -139,12 +153,11 @@ function Projects() {
                     width="36"
                     src={icemlab}
                     alt="icemlab"
-                    style={{ borderRadius: "20%" }}
+                    style={{
+                      borderRadius: "20%",
+                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
+                    }}
                   ></img>
-                </td>
-                <td>
-                  ReactJS <br /> Python <br />
-                  Flask <br /> DynamoDB{" "}
                 </td>
                 <td>
                   Virtual Chemistry Lab (iCEMlab) is a responsive web
@@ -152,17 +165,26 @@ function Projects() {
                   experiment. <br /> Developed for the University of Cape Town
                   Department of Chemistry.
                 </td>
+              </tr>
+              <tr>
                 <td>
-                  <Badge variant="success">In Production</Badge>
+                  <h3>Syndikit</h3>
+                  <img
+                    width="30"
+                    src={syndikit}
+                    alt="syndikit"
+                    style={{
+                      borderRadius: "20%",
+                      filter: props.mode ? "invert(0%)" : "invert(100%)",
+                    }}
+                  ></img>
                 </td>
+                <td>Simple Powerful Business Tooling.</td>
               </tr>
               <tr>
                 <td>
                   <h3>Remote</h3>
                   <Icon>games</Icon>
-                </td>
-                <td>
-                  Next.js <br /> JavaScript
                 </td>
                 <td>
                   Remote is a tool to boost your productivity whilst working
@@ -172,29 +194,19 @@ function Projects() {
                     scrolling.
                   </i>
                 </td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
-                </td>
               </tr>
               <tr>
                 <td>
                   <h3>Midas </h3>
                   <h2>
-                    <Badge pill variant="light">
+                    <Badge pill variant={props.mode ? "light" : "dark"}>
                       Μίδας
                     </Badge>
                   </h2>
                 </td>
                 <td>
-                  ReactJS <br /> Python <br />
-                  Flask <br /> DynamoDB{" "}
-                </td>
-                <td>
                   A Sentiment Analysis and Trend Prediction web application tool
                   for Gold prices.
-                </td>
-                <td>
-                  <Badge variant="primary">In Development</Badge>
                 </td>
               </tr>
               <tr>
@@ -204,16 +216,13 @@ function Projects() {
                     width="32"
                     src={senti}
                     alt="senti"
-                    style={{ borderRadius: "20%" }}
+                    style={{
+                      borderRadius: "20%",
+                      filter: props.mode ? "invert(0%)" : "invert(100%)",
+                    }}
                   ></img>
                 </td>
-                <td>
-                  ReactJS <br /> AWS Amplify
-                </td>
                 <td>A sentiment analysis playground powered by Senti API.</td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
-                </td>
               </tr>
               <tr>
                 <td>
@@ -222,19 +231,14 @@ function Projects() {
                     width="32"
                     src={senti}
                     alt="senti"
-                    style={{ borderRadius: "20%" }}
+                    style={{
+                      borderRadius: "20%",
+                      filter: props.mode ? "invert(0%)" : "invert(100%)",
+                    }}
                   ></img>
                 </td>
                 <td>
-                  Python <br />
-                  Flask
-                  <br /> DynamoDB
-                </td>
-                <td>
                   A blazingly fast sentiment analysis Python API using NLTK.
-                </td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
                 </td>
               </tr>
               <tr>
@@ -244,19 +248,16 @@ function Projects() {
                     width="32"
                     src={tenshi}
                     alt="tenshi"
-                    style={{ borderRadius: "20%" }}
+                    style={{
+                      borderRadius: "20%",
+                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
+                    }}
                   ></img>
-                </td>
-                <td>
-                  React Native <br /> JavaScript
                 </td>
                 <td>
                   A React Native application disguised as a calculator that
                   provides quick and covert access to emergency assitance for
                   potential victims of abuse.
-                </td>
-                <td>
-                  <Badge variant="warning">In QA</Badge>
                 </td>
               </tr>
               <tr></tr>
@@ -267,56 +268,49 @@ function Projects() {
                     width="36"
                     src={brickset}
                     alt="brickset"
-                    style={{ borderRadius: "20%" }}
+                    style={{
+                      borderRadius: "20%",
+                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
+                    }}
                   ></img>
-                </td>
-                <td>
-                  React Native <br /> JavaScript
                 </td>
                 <td>
                   A React Native IOS application that provides a mobile
                   experience for the popular Lego-related website, brickset.com
-                </td>
-                <td>
-                  <Badge variant="warning">In QA</Badge>
                 </td>
               </tr>
               <tr>
                 <td>
                   <h3>Academic Portfolio</h3>
                   <h2>
-                    <Badge style={{ width: "30%" }} variant="warning">
+                    <Badge
+                      style={{ width: "30%" }}
+                      variant={props.mode ? "warning" : "dark"}
+                    >
                       M
                     </Badge>
                   </h2>
                 </td>
                 <td>
-                  ReactJS <br /> JavaScript <br /> HTML <br /> CSS
-                </td>
-                <td>
                   A website that showcases the academic career, publications and
                   projects of the client.
-                </td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
                 </td>
               </tr>
               <tr>
                 <td>
                   <h3>DataScaper</h3>
                   <h2>
-                    <Badge style={{ width: "30%" }} variant="danger">
+                    <Badge
+                      style={{ width: "30%" }}
+                      variant={props.mode ? "danger" : "dark"}
+                    >
                       D
                     </Badge>
                   </h2>
                 </td>
-                <td>Java</td>
                 <td>
                   A web-scraping and parsing tool to retrieve and generate SA
                   COVID-19 statistics.
-                </td>
-                <td>
-                  <Badge variant="danger">Deprecated</Badge>
                 </td>
               </tr>
               <tr>
@@ -326,25 +320,21 @@ function Projects() {
                     width="36"
                     src={resume}
                     alt="resume"
-                    style={{ borderRadius: "10%" }}
+                    style={{
+                      borderRadius: "10%",
+                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
+                    }}
                   ></img>
-                </td>
-                <td>
-                  Gatsby <br /> JavaScript <br /> HTML <br /> CSS{" "}
                 </td>
                 <td>
                   A personal static site that houses my digital desconstructed
                   resume.
-                </td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
                 </td>
               </tr>
               <tr>
                 <td>
                   <h3>Research Paper</h3>
                 </td>
-                <td>Python</td>
                 <td>
                   Title:{" "}
                   <i>
@@ -352,47 +342,40 @@ function Projects() {
                     Patterns in South Africa using Density-based Clustering
                   </i>
                 </td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
-                </td>
               </tr>
               <tr>
                 <td>
                   <h3>FileShare</h3>
                   <h2>
-                    <Badge style={{ width: "30%" }} variant="info">
+                    <Badge
+                      style={{ width: "30%" }}
+                      variant={props.mode ? "info" : "dark"}
+                    >
                       F
                     </Badge>
                   </h2>
                 </td>
-                <td>Java</td>
                 <td>
                   A Command Line Interface application to securely share files
                   between a client and server.
-                </td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
                 </td>
               </tr>
               <tr>
                 <td>
                   <h3>APFKZN</h3>
                   <h2>
-                    <Badge style={{ width: "30%" }} variant="secondary">
+                    <Badge
+                      style={{ width: "30%" }}
+                      variant={props.mode ? "secondary" : "dark"}
+                    >
                       A
                     </Badge>
                   </h2>
                 </td>
                 <td>
-                  HTML <br /> CSS <br /> WordPress
-                </td>
-                <td>
                   A website for the Association des Professeurs de Français of
                   KwaZulu Natal, providing information and resources for the
                   client organisation's members.
-                </td>
-                <td>
-                  <Badge variant="success">In Production</Badge>
                 </td>
               </tr>
             </tbody>

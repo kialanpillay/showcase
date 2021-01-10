@@ -1,11 +1,11 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
-function Profile() {
+import Moment from "react-moment";
+function Profile(props) {
   return (
     <div>
       <Row
@@ -29,7 +29,7 @@ function Profile() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
               <Card.Title>B I O</Card.Title>
@@ -39,7 +39,7 @@ function Profile() {
               <div>
                 <h1>
                   <Badge pill variant="light">
-                    5 March 2001
+                    <Moment fromNow ago>2001-03-05</Moment> old
                   </Badge>{" "}
                 </h1>
               </div>
@@ -60,7 +60,7 @@ function Profile() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
               <Card.Title>A C A D E M I C S</Card.Title>
@@ -75,7 +75,7 @@ function Profile() {
               </div>
               <div>
                 <h1>
-                  <Badge pill variant="light">
+                  <Badge pill variant={props.mode ? "light" : "dark"}>
                     86.5 GPA
                   </Badge>
                 </h1>
@@ -91,7 +91,7 @@ function Profile() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
               <Card.Title>E X C E L L E N C E</Card.Title>
@@ -102,7 +102,7 @@ function Profile() {
                 <h2>5 Scholarships</h2>
               </div>
               <Button
-                variant="dark"
+                variant={props.mode ? "light" : "dark"}
                 size="lg"
                 style={{ marginTop: "4vw" }}
                 href="https://kialan.co.za"

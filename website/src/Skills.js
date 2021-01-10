@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
@@ -16,7 +15,7 @@ import sql from "./assets/mysql.svg";
 import keras from "./assets/keras.jpg";
 import tensorflow from "./assets/tensorflow.png";
 
-function Skills() {
+function Skills(props) {
   return (
     <div>
       <Row
@@ -54,6 +53,9 @@ function Skills() {
                     width="100"
                     src={js}
                     alt="JavaScript"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
                 <Col md="auto" xs={4}>
@@ -62,6 +64,9 @@ function Skills() {
                     width="150"
                     src={react}
                     alt="ReactJS"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
                 <Col md="auto" xs={4}>
@@ -70,12 +75,15 @@ function Skills() {
                     width="100"
                     src={ts}
                     alt="TypeScript"
+                    style={{
+                      filter: props.mode
+                        ? "grayscale(100%)"
+                        : "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
               </Row>
-              <Row
-                className="justify-content-md-center"
-              >
+              <Row className="justify-content-md-center">
                 <Col md="auto">
                   <h4 className="h4--skills">
                     JavaScript | ReactJS | TypeScript | HTML | CSS
@@ -98,6 +106,9 @@ function Skills() {
                     width="100"
                     src={golang}
                     alt="Golang"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
                 <Col md="auto" xs={3}>
@@ -106,6 +117,9 @@ function Skills() {
                     width="100"
                     src={python}
                     alt="Python"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
                 <Col md="auto" xs={3}>
@@ -114,18 +128,29 @@ function Skills() {
                     id="sql"
                     width="120"
                     src={sql}
-                    alt="MySQL"
+                    alt="SQL"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
                 <Col md="auto" xs={3}>
-                  <img className="image" width="60" src={java} alt="java"></img>
+                  <img
+                    className="image"
+                    width="60"
+                    src={java}
+                    alt="java"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
+                  ></img>
                 </Col>
               </Row>
-              <Row
-                className="justify-content-md-center"
-              >
+              <Row className="justify-content-md-center">
                 <Col md="auto">
-                  <h4 className="h4--skills">Java | Golang | Python | C++ | SQL</h4>
+                  <h4 className="h4--skills">
+                    Golang | Python | C++ | SQL | Java
+                  </h4>
                 </Col>
               </Row>
             </Carousel.Item>
@@ -144,6 +169,9 @@ function Skills() {
                     width="90"
                     src={keras}
                     alt="Keras"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
                 <Col md="auto" xs={3}>
@@ -152,6 +180,9 @@ function Skills() {
                     width="90"
                     src={tensorflow}
                     alt="TensorFlow"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
                 <Col md="auto" xs={3}>
@@ -160,15 +191,24 @@ function Skills() {
                     width="100"
                     src={matlab}
                     alt="MATLAB"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
                   ></img>
                 </Col>
                 <Col md="auto" xs={3}>
-                  <img className="image" width="100" src={R} alt="R"></img>
+                  <img
+                    className="image"
+                    width="100"
+                    src={R}
+                    alt="R"
+                    style={{
+                      filter: "grayscale(100%)",
+                    }}
+                  ></img>
                 </Col>
               </Row>
-              <Row
-                className="justify-content-md-center"
-              >
+              <Row className="justify-content-md-center">
                 <Col md="auto">
                   <h4 className="h4--skills">
                     Keras | Tensorflow | MATLAB | R
@@ -186,7 +226,7 @@ function Skills() {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
               <Card.Title>S N A P S H O T</Card.Title>

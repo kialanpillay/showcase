@@ -5,9 +5,6 @@
   min-height: 100vh;
 }
 
-html {
-  background-color: #282c34;
-}
 
 h1 {
   font-size: 2.5vw;
@@ -36,7 +33,6 @@ th {
 
 .p--brand {
   display: inline;
-  color: white;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
 }
@@ -54,7 +50,7 @@ th {
 }
 
 .vl {
-  border-left: 6px solid white;
+  border-left: 6px solid;
   height: 100%;
   position: relative;
 }
@@ -72,14 +68,12 @@ th {
 }
 
 .h1--skills {
-  color: white;
   text-align: center;
   letter-spacing: 0.6rem;
 }
 
 .h1--numeric {
   display: inline;
-  color: white;
   font-size: 5vw;
 }
 
@@ -95,7 +89,6 @@ th {
 }
 
 .h1--contact {
-  color: white;
   letter-spacing: 0.6rem;
   text-align: left;
 }
@@ -138,7 +131,7 @@ th {
   }
 
   .vl {
-    border-left: 6px solid white;
+    border-left: 6px solid;
     height: 50%;
     position: relative;
     display: none;
@@ -163,7 +156,6 @@ th {
   }
 
   .h1--skills {
-    color: white;
     letter-spacing: 0.2rem;
     text-align: center;
   }
@@ -183,7 +175,6 @@ th {
 
   .h1--numeric {
     display: inline;
-    color: white;
     font-size: 6vh;
   }
 
@@ -202,7 +193,6 @@ th {
   }
 
   .h1--contact {
-    color: white;
     text-align: left;
     letter-spacing: 0.2rem;
   }

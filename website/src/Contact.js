@@ -1,12 +1,11 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-function Contact() {
+function Contact(props) {
   return (
     <div>
       <Row
@@ -33,20 +32,17 @@ function Contact() {
           <Card
             style={{
               width: "100%",
-              height: "28rem",
+              height: "26rem",
               textAlign: "left",
               marginRight: "4vw",
               marginBottom: "4vw",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border={props.mode ? "light" : "dark"}
           >
             <Card.Body>
               <h1 className="h1--contact">FORM</h1>
               <Form
-                style={{
-                  marginTop: "6vh",
-                }}
                 name="contact"
                 method="POST"
                 data-netlify="true"
@@ -97,11 +93,11 @@ function Contact() {
           <Card
             style={{
               width: "100%",
-              height: "22rem",
+              height: "16rem",
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border="light"
+            border={props.mode ? "light" : "dark"}
           >
             <Card.Body>
               <Card.Title>S O C I A L S</Card.Title>
@@ -113,7 +109,10 @@ function Contact() {
                 >
                   <i
                     className="fa fa-instagram"
-                    style={{ fontSize: "48px", color: "white" }}
+                    style={{
+                      fontSize: "48px",
+                      color: props.mode ? "white" : "black",
+                    }}
                   ></i>
                 </a>
               </Card.Text>
@@ -125,7 +124,10 @@ function Contact() {
                 >
                   <i
                     className="fa fa-linkedin"
-                    style={{ fontSize: "48px", color: "white" }}
+                    style={{
+                      fontSize: "48px",
+                      color: props.mode ? "white" : "black",
+                    }}
                   ></i>
                 </a>
               </Card.Text>
@@ -137,19 +139,10 @@ function Contact() {
                 >
                   <i
                     className="fa fa-facebook"
-                    style={{ fontSize: "48px", color: "white" }}
-                  ></i>
-                </a>
-              </Card.Text>
-              <Card.Text>
-                <a
-                  href="https://flickr.com/photos/188051225@N03/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i
-                    className="fa fa-flickr"
-                    style={{ fontSize: "48px", color: "white" }}
+                    style={{
+                      fontSize: "48px",
+                      color: props.mode ? "white" : "black",
+                    }}
                   ></i>
                 </a>
               </Card.Text>
