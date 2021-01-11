@@ -17,12 +17,12 @@ function Image() {
         onMouseEnter={() => setShow(!show)}
       >
         <img
-          width="250vw"
+          width="200vw"
           src={img}
           alt="Profile"
           rel="noopener noreferrer"
           style={{
-            marginLeft: "2vw",
+            margin: "2vw",
             borderRadius: "50%",
           }}
         ></img>
