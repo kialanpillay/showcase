@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import img from "./assets/avatar.png";
+import img from "./assets/icon-512x512.png";
 import Tooltip from "react-bootstrap/Tooltip";
 import Overlay from "react-bootstrap/Overlay";
 
@@ -24,13 +24,12 @@ function Image() {
           style={{
             marginLeft: "2vw",
             borderRadius: "50%",
-            filter: "grayscale(100%)",
           }}
         ></img>
       </a>
       <Overlay target={target.current} show={show} placement="top">
         {(props) => (
-          <Tooltip id="overlay-example" {...props}>
+          <Tooltip {...props}>
             Bonus Content! Click to visit my digital resume; a static site built with Gatsby.
           </Tooltip>
         )}

@@ -29,6 +29,7 @@ function Profile(props) {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
+            className="shadow"
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
@@ -39,7 +40,10 @@ function Profile(props) {
               <div>
                 <h1>
                   <Badge pill variant="light">
-                    <Moment fromNow ago>2001-03-05</Moment> old
+                    <Moment fromNow ago>
+                      2001-03-05
+                    </Moment>{" "}
+                    old
                   </Badge>{" "}
                 </h1>
               </div>
@@ -60,10 +64,11 @@ function Profile(props) {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
+            className="shadow"
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title>A C A D E M I C S</Card.Title>
+              <Card.Title>E D U C A T I O N</Card.Title>
               <div>
                 <h3>University of Cape Town</h3>
               </div>
@@ -91,6 +96,7 @@ function Profile(props) {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
+            className="shadow"
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
@@ -104,10 +110,10 @@ function Profile(props) {
               <Button
                 variant={props.mode ? "light" : "dark"}
                 size="lg"
-                style={{ marginTop: "4vw" }}
+                style={{ marginTop: "3.5vw" }}
                 href="https://kialan.co.za"
               >
-                View More
+                M O R E
               </Button>
             </Card.Body>
           </Card>

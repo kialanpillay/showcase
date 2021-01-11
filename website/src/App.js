@@ -75,7 +75,7 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mode: true,
+      mode: false,
     };
     this.scroll = this.scroll.bind(this);
   }
@@ -147,6 +147,7 @@ export default class App extends React.Component {
                   style={{ width: "10rem", height: "10rem" }}
                   variant={this.state.mode ? "primary" : "dark"}
                   onClick={() => this.scroll("#profile")}
+                  className="btn--shadow"
                 >
                   <h3 className="btn__text">PROFILE</h3>
                 </Button>
@@ -156,6 +157,7 @@ export default class App extends React.Component {
                   style={{ width: "10rem", height: "10rem" }}
                   variant={this.state.mode ? "warning" : "dark"}
                   onClick={() => this.scroll("#skills")}
+                  className="btn--shadow"
                 >
                   <h3 className="btn__text">SKILLS</h3>
                 </Button>
@@ -165,6 +167,7 @@ export default class App extends React.Component {
                   style={{ width: "10rem", height: "10rem" }}
                   variant={this.state.mode ? "danger" : "dark"}
                   onClick={() => this.scroll("#career")}
+                  className="btn--shadow"
                 >
                   <h3 className="btn__text">CAREER</h3>
                 </Button>
@@ -174,6 +177,7 @@ export default class App extends React.Component {
                   style={{ width: "10rem", height: "10rem" }}
                   variant={this.state.mode ? "success" : "dark"}
                   onClick={() => this.scroll("#project")}
+                  className="btn--shadow"
                 >
                   <h3 className="btn__text">PROJECTS</h3>
                 </Button>
@@ -183,6 +187,7 @@ export default class App extends React.Component {
                   style={{ width: "10rem", height: "10rem" }}
                   variant={this.state.mode ? "info" : "dark"}
                   onClick={() => this.scroll("#contact")}
+                  className="btn--shadow"
                 >
                   <h3 className="btn__text">CONTACT</h3>
                 </Button>

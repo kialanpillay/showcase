@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 .App {
   text-align: center;
   color: white;
   background-color: #282c34;
-  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
-
 
 h1 {
   font-size: 2.5vw;
@@ -50,7 +51,7 @@ th {
 }
 
 .vl {
-  border-left: 6px solid;
+  border-left: 3px solid;
   height: 100%;
   position: relative;
 }
@@ -68,8 +69,8 @@ th {
 }
 
 .h1--skills {
-  text-align: center;
-  letter-spacing: 0.6rem;
+  text-align: left;
+  font-size: 3vw;
 }
 
 .h1--numeric {
@@ -78,8 +79,8 @@ th {
 }
 
 .sep {
-  background-color: rgb(52, 62, 65);
-  height: 4px;
+  background-color: white;
+  height: 2px;
   margin-top: 10vh;
 }
 
@@ -91,6 +92,10 @@ th {
 .h1--contact {
   letter-spacing: 0.6rem;
   text-align: left;
+}
+
+.btn--shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media only screen and (max-width: 600px) and (max-height: 900px) {
@@ -131,7 +136,7 @@ th {
   }
 
   .vl {
-    border-left: 6px solid;
+    border-left: 3px solid;
     height: 50%;
     position: relative;
     display: none;
@@ -139,8 +144,8 @@ th {
 
   .sep {
     margin-top: 4vh;
-    height: 4px;
-    background-color: rgb(52, 62, 65);
+    height: 1px;
+    background-color: white;
   }
 
   .btn__text {
@@ -156,21 +161,12 @@ th {
   }
 
   .h1--skills {
-    letter-spacing: 0.2rem;
+    font-size: 8vw;
     text-align: center;
   }
 
   .h4--skills {
-    margin-top: 10vh;
     font-size: 4vw;
-  }
-
-  .image {
-    width: 6vh;
-  }
-
-  .image--react {
-    width: 10vh;
   }
 
   .h1--numeric {
@@ -179,17 +175,8 @@ th {
   }
 
   .p--career {
-    font-size: 2vw;
+    font-size: 4vw;
     text-align: justify;
-  }
-
-  .image--stack {
-    width: 4vh;
-    height: 4vh;
-  }
-
-  .image--stack-react {
-    width: 6vh;
   }
 
   .h1--contact {

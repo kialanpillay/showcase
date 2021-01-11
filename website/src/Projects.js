@@ -7,7 +7,6 @@ import Badge from "react-bootstrap/Badge";
 import brickset from "./assets/brickset.png";
 import senti from "./assets/senti.png";
 import tenshi from "./assets/tenshi.png";
-import resume from "./assets/resume.png";
 import icemlab from "./assets/icemlab.png";
 import skybox from "./assets/skybox.png";
 import syndikit from "./assets/syndikit.png";
@@ -44,7 +43,8 @@ function Projects(props) {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border={props.mode ? "light" : "dark"}
+            className="shadow"
+            border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
               <Card.Title>C O D E</Card.Title>
@@ -73,7 +73,8 @@ function Projects(props) {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border={props.mode ? "light" : "dark"}
+            className="shadow"
+            border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
               <Card.Title>S A G A</Card.Title>
@@ -101,34 +102,47 @@ function Projects(props) {
           </Card>
         </Col>
         <Col md={10} xs={12}>
-          <Table responsive style={{ color: props.mode ? "white" : "black" }}>
+          <Table
+            responsive
+            style={{ color: props.mode ? "white" : "black", textAlign: "left" }}
+          >
             <thead>
               <tr>
                 <th>P R O J E C T</th>
                 <th>D E S C R I P T I O N</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>
                   <h3>Compli</h3>
-                  <img
-                    width="36"
-                    src={compli}
-                    alt="compli"
-                    style={{
-                      borderRadius: "20%"
-                    }}
-                  ></img>
                 </td>
                 <td>
                   Compli is an employee health screening and management tool,
                   with a real-time metrics dashboard supercharged by AI.
                 </td>
+                <td>
+                  <img
+                    width="36"
+                    src={compli}
+                    alt="compli"
+                    style={{
+                      borderRadius: "20%",
+                    }}
+                  ></img>
+                </td>
               </tr>
               <tr>
                 <td>
                   <h3>Skybox</h3>
+                </td>
+                <td>
+                  SKYBOX is an interactive web application that gives users the
+                  chance to immerse themselves in the exploration of the space
+                  beyond our atmosphere.
+                </td>
+                <td>
                   <img
                     width="36"
                     src={skybox}
@@ -138,15 +152,19 @@ function Projects(props) {
                     }}
                   ></img>
                 </td>
-                <td>
-                  SKYBOX is an interactive web application that gives users the
-                  chance to immerse themselves in the exploration of the space
-                  beyond our atmosphere.
-                </td>
               </tr>
               <tr>
                 <td>
                   <h3>iCEMlab</h3>
+                </td>
+                <td>
+                  Virtual Chemistry Lab (iCEMlab) is a responsive web
+                  application that allows students to conduct a virtual
+                  experiment. <br /> Developed for the University of Cape Town
+                  Department of Chemistry.
+                </td>
+                <td>
+                  {" "}
                   <img
                     width="36"
                     src={icemlab}
@@ -156,16 +174,14 @@ function Projects(props) {
                     }}
                   ></img>
                 </td>
-                <td>
-                  Virtual Chemistry Lab (iCEMlab) is a responsive web
-                  application that allows students to conduct a virtual
-                  experiment. <br /> Developed for the University of Cape Town
-                  Department of Chemistry.
-                </td>
               </tr>
               <tr>
                 <td>
                   <h3>Syndikit</h3>
+                </td>
+                <td>Simple Powerful Business Tooling.</td>
+                <td>
+                  {" "}
                   <img
                     width="30"
                     src={syndikit}
@@ -176,12 +192,10 @@ function Projects(props) {
                     }}
                   ></img>
                 </td>
-                <td>Simple Powerful Business Tooling.</td>
               </tr>
               <tr>
                 <td>
                   <h3>Remote</h3>
-                  <Icon>games</Icon>
                 </td>
                 <td>
                   Remote is a tool to boost your productivity whilst working
@@ -191,24 +205,31 @@ function Projects(props) {
                     scrolling.
                   </i>
                 </td>
+                <td>
+                  <Icon>games</Icon>
+                </td>
               </tr>
               <tr>
                 <td>
-                  <h3>Midas </h3>
-                  <h2>
-                    <Badge pill variant={props.mode ? "light" : "dark"}>
-                      Μίδας
-                    </Badge>
-                  </h2>
+                  <h3>Midas</h3>
                 </td>
                 <td>
                   A Sentiment Analysis and Trend Prediction web application tool
                   for Gold prices.
                 </td>
+                <td>
+                  <h2>
+                    <Badge variant={props.mode ? "light" : "dark"}>δ</Badge>
+                  </h2>
+                </td>
               </tr>
               <tr>
                 <td>
                   <h3>Senti Playground</h3>
+                </td>
+                <td>A sentiment analysis playground powered by Senti API.</td>
+                <td>
+                  {" "}
                   <img
                     width="32"
                     src={senti}
@@ -219,11 +240,16 @@ function Projects(props) {
                     }}
                   ></img>
                 </td>
-                <td>A sentiment analysis playground powered by Senti API.</td>
               </tr>
               <tr>
                 <td>
                   <h3>Senti API</h3>
+                </td>
+                <td>
+                  A blazingly fast sentiment analysis Python API using NLTK.
+                </td>
+                <td>
+                  {" "}
                   <img
                     width="32"
                     src={senti}
@@ -234,13 +260,17 @@ function Projects(props) {
                     }}
                   ></img>
                 </td>
-                <td>
-                  A blazingly fast sentiment analysis Python API using NLTK.
-                </td>
               </tr>
               <tr>
                 <td>
-                  <h3>Tenshi Calculator</h3>
+                  <h3>Tenshi</h3>
+                </td>
+                <td>
+                  A React Native application disguised as a calculator that
+                  provides quick and covert access to emergency assitance for
+                  potential victims of abuse.
+                </td>
+                <td>
                   <img
                     width="32"
                     src={tenshi}
@@ -250,16 +280,18 @@ function Projects(props) {
                     }}
                   ></img>
                 </td>
-                <td>
-                  A React Native application disguised as a calculator that
-                  provides quick and covert access to emergency assitance for
-                  potential victims of abuse.
-                </td>
               </tr>
               <tr></tr>
               <tr>
                 <td>
                   <h3>Brickset Go</h3>
+                </td>
+                <td>
+                  A React Native IOS application that provides a mobile
+                  experience for the popular Lego-related website, brickset.com
+                </td>
+                <td>
+                  {" "}
                   <img
                     width="36"
                     src={brickset}
@@ -269,65 +301,34 @@ function Projects(props) {
                     }}
                   ></img>
                 </td>
-                <td>
-                  A React Native IOS application that provides a mobile
-                  experience for the popular Lego-related website, brickset.com
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h3>Academic Portfolio</h3>
-                  <h2>
-                    <Badge
-                      style={{ width: "30%" }}
-                      variant={props.mode ? "warning" : "warning"}
-                    >
-                      M
-                    </Badge>
-                  </h2>
-                </td>
-                <td>
-                  A website that showcases the academic career, publications and
-                  projects of the client.
-                </td>
               </tr>
               <tr>
                 <td>
                   <h3>DataScaper</h3>
-                  <h2>
-                    <Badge
-                      style={{ width: "30%" }}
-                      variant={props.mode ? "danger" : "danger"}
-                    >
-                      D
-                    </Badge>
-                  </h2>
                 </td>
                 <td>
                   A web-scraping and parsing tool to retrieve and generate SA
                   COVID-19 statistics.
                 </td>
+                <td>
+                  <h2>
+                    <Badge variant="danger">D</Badge>
+                  </h2>
+                </td>
               </tr>
               <tr>
                 <td>
                   <h3>Résumé</h3>
-                  <img
-                    width="36"
-                    src={resume}
-                    alt="resume"
-                    style={{
-                      borderRadius: "10%",
-                    }}
-                  ></img>
                 </td>
                 <td>
                   A personal static site that houses my digital desconstructed
                   resume.
                 </td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <h3>Research Paper</h3>
+                  <h3>NRG</h3>
                 </td>
                 <td>
                   Title:{" "}
@@ -336,41 +337,28 @@ function Projects(props) {
                     Patterns in South Africa using Density-based Clustering
                   </i>
                 </td>
+                <td></td>
               </tr>
               <tr>
                 <td>
                   <h3>FileShare</h3>
-                  <h2>
-                    <Badge
-                      style={{ width: "30%" }}
-                      variant={props.mode ? "info" : "info"}
-                    >
-                      F
-                    </Badge>
-                  </h2>
                 </td>
                 <td>
                   A Command Line Interface application to securely share files
                   between a client and server.
                 </td>
+                <td></td>
               </tr>
               <tr>
                 <td>
                   <h3>APFKZN</h3>
-                  <h2>
-                    <Badge
-                      style={{ width: "30%" }}
-                      variant={props.mode ? "secondary" : "secondary"}
-                    >
-                      A
-                    </Badge>
-                  </h2>
                 </td>
                 <td>
                   A website for the Association des Professeurs de Français of
                   KwaZulu Natal, providing information and resources for the
                   client organisation's members.
                 </td>
+                <td></td>
               </tr>
             </tbody>
           </Table>

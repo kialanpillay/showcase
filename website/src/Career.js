@@ -30,7 +30,7 @@ function Career(props) {
             style={{
               marginTop: "2vw",
               width: "100%",
-              height: "30rem",
+              height: "28rem",
             }}
           >
             <Carousel.Item>
@@ -38,11 +38,13 @@ function Career(props) {
                 <Card
                   style={{
                     width: "75%",
-                    height: "26rem",
+                    height: "24rem",
                     textAlign: "left",
                     backgroundColor: "transparent",
+                    overflowY: "scroll",
                   }}
-                  border={props.mode ? "light" : "dark"}
+                  className="shadow"
+                  border={props.mode ? "light" : "secondary"}
                 >
                   <Card.Body>
                     <Card.Title>I N F O</Card.Title>
@@ -58,57 +60,12 @@ function Career(props) {
                           >
                             <h1>Amazon Web Services</h1>
                           </a>
-                          <h5>Software Development Engineer Intern</h5>
-                          <h5>
-                            <Badge pill variant={props.mode ? "light" : "dark"}>
-                              2020 - 2021
-                            </Badge>
-                          </h5>
-                        </div>
-                      </Col>
-                    </Row>
-                    <div
-                      style={{
-                        marginTop: "1rem",
-                      }}
-                    >
-                      <p className="p--career">Content loading...</p>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Row>
-            </Carousel.Item>
-            <Carousel.Item>
-              <Row className="justify-content-md-center">
-                <Card
-                  style={{
-                    width: "75%",
-                    height: "26rem",
-                    textAlign: "left",
-                    backgroundColor: "transparent",
-                  }}
-                  border={props.mode ? "light" : "dark"}
-                >
-                  <Card.Body>
-                    <Card.Title>I N F O</Card.Title>
-                    <Row>
-                      <Col md={8}>
-                        <div>
-                          <a
-                            href="https://aws.amazon.com"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            className="link"
-                            style={{ color: props.mode ? "white" : "#282c34" }}
-                          >
-                            <h1>Amazon Web Services</h1>
-                          </a>
-                          <h5>Software Development Engineer Intern</h5>
-                          <h5>
+                          <h4>Software Development Engineer Intern</h4>
+                          <h4>
                             <Badge pill variant={props.mode ? "light" : "dark"}>
                               2019 - 2020
                             </Badge>
-                          </h5>
+                          </h4>
                         </div>
                       </Col>
                     </Row>
@@ -144,11 +101,13 @@ function Career(props) {
                 <Card
                   style={{
                     width: "75%",
-                    height: "26rem",
+                    height: "24rem",
                     textAlign: "left",
                     backgroundColor: "transparent",
+                    overflowY: "scroll",
                   }}
-                  border={props.mode ? "light" : "dark"}
+                  className="shadow"
+                  border={props.mode ? "light" : "secondary"}
                 >
                   <Card.Body>
                     <Card.Title>I N F O</Card.Title>
@@ -164,12 +123,12 @@ function Career(props) {
                           >
                             <h1>Electrum Payments</h1>
                           </a>
-                          <h5>Software Developer Intern</h5>
-                          <h5>
+                          <h4>Software Developer Intern</h4>
+                          <h4>
                             <Badge pill variant={props.mode ? "light" : "dark"}>
                               2019
                             </Badge>
-                          </h5>
+                          </h4>
                         </div>
                       </Col>
                     </Row>
@@ -199,11 +158,13 @@ function Career(props) {
                 <Card
                   style={{
                     width: "75%",
-                    height: "26rem",
+                    height: "24rem",
                     textAlign: "left",
                     backgroundColor: "transparent",
+                    overflowY: "scroll",
                   }}
-                  border={props.mode ? "light" : "dark"}
+                  className="shadow"
+                  border={props.mode ? "light" : "secondary"}
                 >
                   <Card.Body>
                     <Card.Title>I N F O</Card.Title>
@@ -219,12 +180,12 @@ function Career(props) {
                           >
                             <h1>Nomanini</h1>
                           </a>
-                          <h5>Software Developer Intern</h5>
-                          <h5>
+                          <h4>Software Developer Intern</h4>
+                          <h4>
                             <Badge pill variant={props.mode ? "light" : "dark"}>
                               2020
                             </Badge>
-                          </h5>
+                          </h4>
                         </div>
                       </Col>
                     </Row>

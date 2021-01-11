@@ -38,15 +38,12 @@ function Contact(props) {
               marginBottom: "4vw",
               backgroundColor: "transparent",
             }}
-            border={props.mode ? "light" : "dark"}
+            className="shadow"
+            border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
               <h1 className="h1--contact">FORM</h1>
-              <Form
-                name="contact"
-                method="POST"
-                data-netlify="true"
-              >
+              <Form name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridName">
@@ -82,7 +79,11 @@ function Contact(props) {
                   <Form.Label>Message</Form.Label>
                   <Form.Control type="text" name="message" placeholder="Hi!" />
                 </Form.Group>
-                <Button variant="dark" size="lg" type="submit">
+                <Button
+                  variant={props.mode ? "light" : "dark"}
+                  size="lg"
+                  type="submit"
+                >
                   Submit
                 </Button>
               </Form>
@@ -98,7 +99,8 @@ function Contact(props) {
               textAlign: "left",
               backgroundColor: "transparent",
             }}
-            border={props.mode ? "light" : "dark"}
+            className="shadow"
+            border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
               <Card.Title>S O C I A L S</Card.Title>
