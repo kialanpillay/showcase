@@ -117,8 +117,7 @@ function Projects(props) {
                     src={compli}
                     alt="compli"
                     style={{
-                      borderRadius: "20%",
-                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
+                      borderRadius: "20%"
                     }}
                   ></img>
                 </td>
@@ -136,7 +135,6 @@ function Projects(props) {
                     alt="skybox"
                     style={{
                       borderRadius: "20%",
-                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
                     }}
                   ></img>
                 </td>
@@ -155,7 +153,6 @@ function Projects(props) {
                     alt="icemlab"
                     style={{
                       borderRadius: "20%",
-                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
                     }}
                   ></img>
                 </td>
@@ -250,7 +247,6 @@ function Projects(props) {
                     alt="tenshi"
                     style={{
                       borderRadius: "20%",
-                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
                     }}
                   ></img>
                 </td>
@@ -270,7 +266,6 @@ function Projects(props) {
                     alt="brickset"
                     style={{
                       borderRadius: "20%",
-                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
                     }}
                   ></img>
                 </td>
@@ -285,7 +280,7 @@ function Projects(props) {
                   <h2>
                     <Badge
                       style={{ width: "30%" }}
-                      variant={props.mode ? "warning" : "dark"}
+                      variant={props.mode ? "warning" : "warning"}
                     >
                       M
                     </Badge>
@@ -302,7 +297,7 @@ function Projects(props) {
                   <h2>
                     <Badge
                       style={{ width: "30%" }}
-                      variant={props.mode ? "danger" : "dark"}
+                      variant={props.mode ? "danger" : "danger"}
                     >
                       D
                     </Badge>
@@ -322,7 +317,6 @@ function Projects(props) {
                     alt="resume"
                     style={{
                       borderRadius: "10%",
-                      filter: props.mode ? "grayscale(0%)" : "grayscale(100%)",
                     }}
                   ></img>
                 </td>
@@ -349,7 +343,7 @@ function Projects(props) {
                   <h2>
                     <Badge
                       style={{ width: "30%" }}
-                      variant={props.mode ? "info" : "dark"}
+                      variant={props.mode ? "info" : "info"}
                     >
                       F
                     </Badge>
@@ -366,7 +360,7 @@ function Projects(props) {
                   <h2>
                     <Badge
                       style={{ width: "30%" }}
-                      variant={props.mode ? "secondary" : "dark"}
+                      variant={props.mode ? "secondary" : "secondary"}
                     >
                       A
                     </Badge>
