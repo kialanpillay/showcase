@@ -110,7 +110,7 @@ function Profile(props) {
               <Button
                 variant={props.mode ? "light" : "dark"}
                 size="lg"
-                style={{ marginTop: "3.5vw" }}
+                style={{ marginTop: "3rem" }}
                 href="https://kialan.co.za"
               >
                 M O R E

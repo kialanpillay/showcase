@@ -98,6 +98,30 @@ th {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@media (min-width: 2000px) {
+  .container {
+    max-width: 1800px;
+  }
+
+  .btn__text {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 600px) and (max-height: 900px) {
   h1 {
     font-size: 7vw;

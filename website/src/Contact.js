@@ -84,7 +84,7 @@ function Contact(props) {
                   size="lg"
                   type="submit"
                 >
-                  Submit
+                  S U B M I T
                 </Button>
               </Form>
             </Card.Body>
