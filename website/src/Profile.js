@@ -79,11 +79,7 @@ function Profile(props) {
                 <h3>Computer Science &amp; Statistics</h3>
               </div>
               <div>
-                <h1>
-                  <Badge pill variant={props.mode ? "light" : "dark"}>
-                    86.5 GPA
-                  </Badge>
-                </h1>
+                <h1>86.5 GPA</h1>
               </div>
             </Card.Body>
           </Card>
