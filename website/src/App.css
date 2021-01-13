@@ -100,7 +100,7 @@ th {
 
 @media (min-width: 2000px) {
   .container {
-    max-width: 2000px;
+    max-width: 1600px;
   }
 
   .btn__text {
