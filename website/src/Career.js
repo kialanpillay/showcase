@@ -63,6 +63,70 @@ function Career(props) {
                           <h4>Software Development Engineer Intern</h4>
                           <h4>
                             <Badge pill variant={props.mode ? "light" : "dark"}>
+                              2020 - 2021
+                            </Badge>
+                          </h4>
+                        </div>
+                      </Col>
+                    </Row>
+                    <div
+                      style={{
+                        marginTop: "1rem",
+                      }}
+                    >
+                      <p className="p--career">
+                        Reduced the signal-to-noise ratio for Managed
+                        Deployments customers by designing and implementing an
+                        asynchronous notification system for the deployment of
+                        commits. TypeScript and ReactJS was used for the
+                        solution front-end, a Kotlin service, RDS repository for
+                        persistence, and Golang and AWS StepFunctions for the
+                        workflows that handle the processing and vending of
+                        notifications.
+                      </p>
+                    </div>
+                    <div>
+                      <p className="p--career">
+                        This feature allows customers to subscribe to
+                        notifications for their commits, and receive
+                        asynchronous messages on the channel of their choice for
+                        deployment-related events.
+                      </p>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Row>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Row className="justify-content-md-center">
+                <Card
+                  style={{
+                    width: "75%",
+                    height: "24rem",
+                    textAlign: "left",
+                    backgroundColor: "transparent",
+                    overflowY: "scroll",
+                  }}
+                  className="shadow"
+                  border={props.mode ? "light" : "secondary"}
+                >
+                  <Card.Body>
+                    <Card.Title>I N F O</Card.Title>
+                    <Row>
+                      <Col md={8}>
+                        <div>
+                          <a
+                            href="https://aws.amazon.com"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="link"
+                            style={{ color: props.mode ? "white" : "#282c34" }}
+                          >
+                            <h1>Amazon Web Services</h1>
+                          </a>
+                          <h4>Software Development Engineer Intern</h4>
+                          <h4>
+                            <Badge pill variant={props.mode ? "light" : "dark"}>
                               2019 - 2020
                             </Badge>
                           </h4>
