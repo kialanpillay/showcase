@@ -40,7 +40,7 @@ th {
 
 .h1--title {
   text-align: left;
-  font-size: 8vw;
+  font-size: 7rem;
   margin-top: 2rem;
 }
 
@@ -58,7 +58,7 @@ th {
 
 .btn__text {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   letter-spacing: 0.15rem;
 }
 
@@ -70,7 +70,7 @@ th {
 
 .h1--skills {
   text-align: left;
-  font-size: 3vw;
+  font-size: 3rem;
 }
 
 .h1--numeric {
