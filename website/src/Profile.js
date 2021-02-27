@@ -2,7 +2,6 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
 import Moment from "react-moment";
 function Profile(props) {
@@ -98,19 +97,17 @@ function Profile(props) {
             <Card.Body>
               <Card.Title>E X C E L L E N C E</Card.Title>
               <div>
-                <h2>15 Awards &amp; Honours</h2>
+                <h1>15</h1>
               </div>
               <div>
-                <h2>5 Scholarships</h2>
+                <h2>Awards &amp; Honours</h2>
               </div>
-              <Button
-                variant={props.mode ? "light" : "dark"}
-                size="lg"
-                style={{ marginTop: "3rem" }}
-                href="https://kialan.co.za"
-              >
-                M O R E
-              </Button>
+              <div>
+                <h1>5</h1>
+              </div>
+              <div>
+                <h2>Scholarships</h2>
+              </div>
             </Card.Body>
           </Card>
         </Col>
