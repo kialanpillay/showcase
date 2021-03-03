@@ -78,8 +78,8 @@ function Career(props) {
                         Reduced the signal-to-noise ratio for Managed
                         Deployments customers by designing and implementing an
                         asynchronous notification system for the deployment of
-                        commits. TypeScript and ReactJS was used for the
-                        solution front-end, a Kotlin service, RDS repository for
+                        commits. TypeScript and ReactJS were used for the
+                        solution front-end, a Kotlin service, an RDS repository for
                         persistence, and Golang and AWS StepFunctions for the
                         workflows that handle the processing and vending of
                         notifications.
