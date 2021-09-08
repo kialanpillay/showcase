@@ -81,11 +81,11 @@ function Skills(props) {
             <Card.Body>
               <Card.Title><h3>S N A P S H O T</h3></Card.Title>
               <div>
-                <h1 className="h1--numeric">4</h1>
+                <h1 className="h1--numeric">6</h1>
                 <h3>Years of Experience</h3>
               </div>
               <div>
-                <h1 className="h1--numeric">16</h1>
+                <h1 className="h1--numeric">20</h1>
                 <h3>Languages &amp; Frameworks</h3>
               </div>
             </Card.Body>
