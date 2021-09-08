@@ -11,6 +11,8 @@ import icemlab from "./assets/icemlab.png";
 import skybox from "./assets/skybox.png";
 import syndikit from "./assets/syndikit.png";
 import compli from "./assets/compli.png";
+import invest from "./assets/invest.png";
+import crypto from "./assets/crypto.png";
 import Icon from "@material-ui/core/Icon";
 
 function Projects(props) {
@@ -47,7 +49,7 @@ function Projects(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title>C O D E</Card.Title>
+              <Card.Title><h3>C O D E</h3></Card.Title>
               <div>
                 <a
                   href="https://github.com/kialanpillay"
@@ -77,9 +79,9 @@ function Projects(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title>S A G A</Card.Title>
+              <Card.Title><h3>S A G A</h3></Card.Title>
               <div>
-                <h1 className="h1--numeric">1+</h1>
+                <h1 className="h1--numeric">2+</h1>
                 <h2>
                   <Badge pill variant="light">
                     2021
@@ -114,6 +116,45 @@ function Projects(props) {
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td>
+                  <h3>INVEST</h3>
+                </td>
+                <td>
+                  An intelligent system for automated share evaluation and
+                  portfolio management using Graph neural networks and semantic
+                  Bayesian networks.
+                </td>
+                <td>
+                  <img
+                    width="36"
+                    src={invest}
+                    alt="invest"
+                    style={{
+                      borderRadius: "20%",
+                    }}
+                  ></img>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>CryptoSystem</h3>
+                </td>
+                <td>
+                  A PGP (Pretty Good Privacy)-based cryptosystem that combines
+                  shared key, public-key encryption and certificates.
+                </td>
+                <td>
+                  <img
+                    width="36"
+                    src={crypto}
+                    alt="crypto"
+                    style={{
+                      borderRadius: "20%",
+                    }}
+                  ></img>
+                </td>
+              </tr>
               <tr>
                 <td>
                   <h3>Compli</h3>

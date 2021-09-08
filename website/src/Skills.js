@@ -47,7 +47,7 @@ function Skills(props) {
           >
             <Col md="auto">
               <h4 className="h4--skills">
-                Java | Python | C++ | SQL | Golang | Kotlin | Ruby
+                Java | Python | C++ | SQL | Golang | Kotlin | Haskell | Ruby
               </h4>
             </Col>
           </Row>

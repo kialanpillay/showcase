@@ -20,7 +20,7 @@ function Profile(props) {
         </Col>
       </Row>
       <Row>
-        <Col md={5} xs={12} style={{ marginBottom: "2vh", marginRight: "3vw" }}>
+        <Col md={5} sm={12} xs={12} style={{ marginBottom: "2vh", marginRight: "3vw" }}>
           <Card
             style={{
               width: "100%",
@@ -55,7 +55,7 @@ function Profile(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3} xs={12} style={{ marginBottom: "2vh" }}>
+        <Col md={3} sm={12} xs={12} style={{ marginBottom: "2vh" }}>
           <Card
             style={{
               width: "100%",
@@ -67,7 +67,7 @@ function Profile(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title>E D U C A T I O N</Card.Title>
+              <Card.Title><h3>E D U C A T I O N</h3></Card.Title>
               <div>
                 <h3>University of Cape Town</h3>
               </div>
@@ -83,7 +83,7 @@ function Profile(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3} xs={12} style={{ marginBottom: "2vh" }}>
+        <Col md={3} sm={12} xs={12} style={{ marginBottom: "2vh" }}>
           <Card
             style={{
               width: "100%",
@@ -95,7 +95,7 @@ function Profile(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title>E X C E L L E N C E</Card.Title>
+              <Card.Title><h3>E X C E L L E N C E</h3></Card.Title>
               <div>
                 <h1>15</h1>
               </div>

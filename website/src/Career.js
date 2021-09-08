@@ -58,6 +58,59 @@ function Career(props) {
                             className="link"
                             style={{ color: props.mode ? "white" : "#282c34" }}
                           >
+                            <h1>DUCAT</h1>
+                          </a>
+                          <h4>Software Developer</h4>
+                          <h4>
+                            <Badge pill variant={props.mode ? "light" : "dark"}>
+                              2021 - Present
+                            </Badge>
+                          </h4>
+                        </div>
+                      </Col>
+                    </Row>
+                    <div
+                      style={{
+                        marginTop: "1rem",
+                      }}
+                    >
+                      <p className="p--career">
+                      Develop and test functionality for proprietary automated trading systems.
+                      </p>
+                    </div>
+                    <div>
+                      <p className="p--career">
+                      </p>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Row>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Row className="justify-content-md-center">
+                <Card
+                  style={{
+                    width: "75%",
+                    height: "24rem",
+                    textAlign: "left",
+                    backgroundColor: "transparent",
+                    overflowY: "scroll",
+                  }}
+                  className="shadow"
+                  border={props.mode ? "light" : "secondary"}
+                >
+                  <Card.Body>
+                    <Card.Title>I N F O</Card.Title>
+                    <Row>
+                      <Col md={8}>
+                        <div>
+                          <a
+                            href="https://aws.amazon.com"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="link"
+                            style={{ color: props.mode ? "white" : "#282c34" }}
+                          >
                             <h1>Amazon Web Services</h1>
                           </a>
                           <h4>Software Development Engineer Intern</h4>
