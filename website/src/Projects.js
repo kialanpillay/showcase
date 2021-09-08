@@ -4,6 +4,8 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
 import Badge from "react-bootstrap/Badge";
+import midas from "./assets/midas.png";
+import datascraper from "./assets/datascraper.png";
 import brickset from "./assets/brickset.png";
 import senti from "./assets/senti.png";
 import tenshi from "./assets/tenshi.png";
@@ -49,7 +51,9 @@ function Projects(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title><h3>C O D E</h3></Card.Title>
+              <Card.Title>
+                <h3>C O D E</h3>
+              </Card.Title>
               <div>
                 <a
                   href="https://github.com/kialanpillay"
@@ -79,7 +83,9 @@ function Projects(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title><h3>S A G A</h3></Card.Title>
+              <Card.Title>
+                <h3>S A G A</h3>
+              </Card.Title>
               <div>
                 <h1 className="h1--numeric">2+</h1>
                 <h2>
@@ -259,9 +265,14 @@ function Projects(props) {
                   for Gold prices.
                 </td>
                 <td>
-                  <h2>
-                    <Badge variant={props.mode ? "light" : "dark"}>δ</Badge>
-                  </h2>
+                  <img
+                    width="36"
+                    src={midas}
+                    alt="midas"
+                    style={{
+                      borderRadius: "20%",
+                    }}
+                  ></img>
                 </td>
               </tr>
               <tr>
@@ -272,7 +283,7 @@ function Projects(props) {
                 <td>
                   {" "}
                   <img
-                    width="32"
+                    width="36"
                     src={senti}
                     alt="senti"
                     style={{
@@ -292,7 +303,7 @@ function Projects(props) {
                 <td>
                   {" "}
                   <img
-                    width="32"
+                    width="36"
                     src={senti}
                     alt="senti"
                     style={{
@@ -313,7 +324,7 @@ function Projects(props) {
                 </td>
                 <td>
                   <img
-                    width="32"
+                    width="36"
                     src={tenshi}
                     alt="tenshi"
                     style={{
@@ -352,9 +363,14 @@ function Projects(props) {
                   COVID-19 statistics.
                 </td>
                 <td>
-                  <h2>
-                    <Badge variant="danger">D</Badge>
-                  </h2>
+                  <img
+                    width="36"
+                    src={datascraper}
+                    alt="datascraper"
+                    style={{
+                      borderRadius: "20%",
+                    }}
+                  ></img>
                 </td>
               </tr>
               <tr>
