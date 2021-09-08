@@ -40,7 +40,7 @@ function Profile(props) {
                 <h1>
                   <Badge pill variant="light">
                     <Moment fromNow ago>
-                      2001-03-05
+                      2002-03-05
                     </Moment>{" "}
                     old
                   </Badge>{" "}
@@ -72,13 +72,13 @@ function Profile(props) {
                 <h3>University of Cape Town</h3>
               </div>
               <div>
-                <h1>BSc</h1>
+                <h1>BSc (Hons)</h1>
               </div>
               <div>
-                <h3>Computer Science &amp; Statistics</h3>
+                <h3>Computer Science</h3>
               </div>
               <div>
-                <h1>86.5 GPA</h1>
+                <h1>91.8 GPA</h1>
               </div>
             </Card.Body>
           </Card>
@@ -97,13 +97,13 @@ function Profile(props) {
             <Card.Body>
               <Card.Title><h3>H O N O U R S</h3></Card.Title>
               <div>
-                <h1>15</h1>
+                <h1>16</h1>
               </div>
               <div>
                 <h2>Awards &amp; Honours</h2>
               </div>
               <div>
-                <h1>5</h1>
+                <h1>6</h1>
               </div>
               <div>
                 <h2>Scholarships</h2>
