@@ -103,7 +103,7 @@ function Contact(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title>S O C I A L S</Card.Title>
+              <Card.Title><h3>S O C I A L S</h3></Card.Title>
               <Card.Text>
                 <a
                   href="https://instagram.com/kialanpillay"

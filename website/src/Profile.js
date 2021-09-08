@@ -32,7 +32,7 @@ function Profile(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title>B I O</Card.Title>
+              <Card.Title><h3>B I O</h3></Card.Title>
               <div>
                 <h1>Kialan Pillay</h1>
               </div>
@@ -95,7 +95,7 @@ function Profile(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title><h3>E X C E L L E N C E</h3></Card.Title>
+              <Card.Title><h3>H O N O U R S</h3></Card.Title>
               <div>
                 <h1>15</h1>
               </div>

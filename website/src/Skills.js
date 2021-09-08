@@ -79,7 +79,7 @@ function Skills(props) {
             border={props.mode ? "light" : "secondary"}
           >
             <Card.Body>
-              <Card.Title>S N A P S H O T</Card.Title>
+              <Card.Title><h3>S N A P S H O T</h3></Card.Title>
               <div>
                 <h1 className="h1--numeric">4</h1>
                 <h3>Years of Experience</h3>
