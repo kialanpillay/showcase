@@ -87,7 +87,7 @@ function Projects(props) {
                 <h3>S A G A</h3>
               </Card.Title>
               <div>
-                <h1 className="h1--numeric">2+</h1>
+                <h1 className="h1--numeric">4+</h1>
                 <h2>
                   <Badge pill variant="light">
                     2021
@@ -124,11 +124,20 @@ function Projects(props) {
             <tbody>
               <tr>
                 <td>
+                  <h3>CBIR</h3>
+                </td>
+                <td>Content Based Image Retrieval with Wavelet features</td>
+                <td>
+
+                </td>
+              </tr>
+              <tr>
+                <td>
                   <h3>INVEST</h3>
                 </td>
                 <td>
                   An intelligent system for automated share evaluation and
-                  portfolio management using Graph neural networks and semantic
+                  portfolio management using graph neural networks and semantic
                   Bayesian networks.
                 </td>
                 <td>
@@ -401,8 +410,8 @@ function Projects(props) {
                   <h3>FileShare</h3>
                 </td>
                 <td>
-                  A Command Line Interface application to securely share files
-                  between a client and server.
+                  A terminal application to securely share files between a
+                  client and server.
                 </td>
                 <td></td>
               </tr>
